@@ -39,6 +39,15 @@ const DK_UI_STATIC = {
     footerDesc: "Пиши мені в Telegram — відповім протягом кількох годин. Прямий зв'язок без посередників.",
     footerCtaText: 'Написати в Telegram',
     footerBottom: 'Зроблено самостійно | dekry',
+    processSectionTitle: 'Як працюємо',
+    processSectionSubtitle: 'Простий процес від ідеї до готового результату',
+    processStep1Title: 'Брифінг',
+    processStep1Desc: 'Обговорюємо твою ідею, цілі та побажання. Визначаємо формат, терміни та бюджет.',
+    processStep2Title: 'Робота',
+    processStep2Desc: 'Створюю проєкт, показую проміжний варіант для корекції. Два правки входять у вартість.',
+    processStep3Title: 'Фінал',
+    processStep3Desc: 'Отримуєш готовий файл у потрібному форматі. Повна передача прав та вихідних файлів.',
+
     modalCloseAria: 'Закрити',
     modalCtaText: 'Обговорити схожий проєкт в Telegram',
     langSwitchAria: 'Обрати мову'
@@ -70,6 +79,15 @@ const DK_UI_STATIC = {
     footerDesc: "Message me on Telegram — I'll reply within a few hours. Direct contact, no middlemen.",
     footerCtaText: 'Message on Telegram',
     footerBottom: 'Made independently | dekry',
+    processSectionTitle: 'How it works',
+    processSectionSubtitle: 'A simple process from idea to final result',
+    processStep1Title: 'Briefing',
+    processStep1Desc: 'We discuss your idea, goals, and wishes. Define the format, timeline, and budget.',
+    processStep2Title: 'Work',
+    processStep2Desc: 'I create the project, show an intermediate version for review. Two revisions are included.',
+    processStep3Title: 'Final',
+    processStep3Desc: 'You receive the finished file in the required format. Full rights and source files transfer.',
+
     modalCloseAria: 'Close',
     modalCtaText: 'Discuss a similar project on Telegram',
     langSwitchAria: 'Choose language'
@@ -101,6 +119,15 @@ const DK_UI_STATIC = {
     footerDesc: 'Пиши мне в Telegram — отвечу в течение нескольких часов. Прямая связь без посредников.',
     footerCtaText: 'Написать в Telegram',
     footerBottom: 'Сделано самостоятельно | dekry',
+    processSectionTitle: 'Как мы работаем',
+    processSectionSubtitle: 'Простой процесс от идеи до готового результата',
+    processStep1Title: 'Бриф',
+    processStep1Desc: 'Обсуждаем твою идею, цели и пожелания. Определяем формат, сроки и бюджет.',
+    processStep2Title: 'Работа',
+    processStep2Desc: 'Создаю проект, показываю промежуточный вариант для коррекции. Два правки входят в стоимость.',
+    processStep3Title: 'Финал',
+    processStep3Desc: 'Получаешь готовый файл в нужном формате. Полная передача прав и исходных файлов.',
+
     modalCloseAria: 'Закрыть',
     modalCtaText: 'Обсудить похожий проект в Telegram',
     langSwitchAria: 'Выбрать язык'

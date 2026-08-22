@@ -43,10 +43,10 @@ const DK_CONTENT = {
     ],
 
     designProjects: [
-      { id: 'des-1', title: 'Банер для YouTube каналу', tool: 'Figma, Photoshop', thumb: 'https://cdn.dekry.cc/img/design-1.jpg', link: 'https://t.me/des1n' },
-      { id: 'des-2', title: 'Креатив для Facebook/Instagram Ads', tool: 'Photoshop, Illustrator', thumb: 'https://cdn.dekry.cc/img/design-2.jpg', link: 'https://t.me/des1n' },
-      { id: 'des-3', title: 'Обкладинка для подкасту', tool: 'Figma, Photoshop', thumb: 'https://cdn.dekry.cc/img/design-3.jpg', link: 'https://t.me/des1n' },
-      { id: 'des-4', title: 'Ідентичність для особистого бренду', tool: 'Figma, Illustrator', thumb: 'https://cdn.dekry.cc/img/design-4.jpg', link: 'https://t.me/des1n' }
+      { id: 'des-1', title: 'Банер для YouTube каналу', desc: 'Дизайн банеру для YouTube-каналу з урахуванням гайдлайнів платформи.', tool: 'Figma, Photoshop', thumb: 'https://cdn.dekry.cc/img/design-1.jpg', link: 'https://t.me/des1n' },
+      { id: 'des-2', title: 'Креатив для Facebook/Instagram Ads', desc: 'Рекламний креатив для таргетованої реклами в соцмережах.', tool: 'Photoshop, Illustrator', thumb: 'https://cdn.dekry.cc/img/design-2.jpg', link: 'https://t.me/des1n' },
+      { id: 'des-3', title: 'Обкладинка для подкасту', desc: 'Мінімалістична обкладинка для подкасту на Spotify та Apple Podcasts.', tool: 'Figma, Photoshop', thumb: 'https://cdn.dekry.cc/img/design-3.jpg', link: 'https://t.me/des1n' },
+      { id: 'des-4', title: 'Ідентичність для особистого бренду', desc: 'Повний брендпак: логотип, кольори, типографіка, гайдлайни.', tool: 'Figma, Illustrator', thumb: 'https://cdn.dekry.cc/img/design-4.jpg', link: 'https://t.me/des1n' }
     ],
 
     skills: [
@@ -69,6 +69,17 @@ const DK_CONTENT = {
       { id: 'price-youtube', name: 'YouTube / Long-form Video', price: 'від $30', features: ['Повний цикл: монтаж, саунд-дизайн, колір, графіка', 'Ретеншн-редагування (утримує увагу глядача)', 'Створення енд-скрін, таймкодів, обкладинки (CTR)'], popular: false },
       { id: 'price-design', name: 'Дизайн-пакет (Бренд / Ads)', price: 'від $8', features: ['Логотип, колірна палітра, типографіка, гайдлайни', 'Креативи для реклами (статика/мобільний відео)', 'YouTube банер, аватарки, обкладинки для відео'], popular: false }
     ],
+
+    stats: [
+      { number: 200, label: 'Відео змонтовано' },
+      { number: 50, label: 'Задоволених клієнтів' },
+      { number: 3, label: 'Роки досвіду' },
+      { number: 24, label: 'Термін відповіді' }
+    ],
+
+
+
+
 
     ui: {
       filterAll: 'Всі', filterReels: 'Reels / Shorts', filterYoutube: 'YouTube',
@@ -115,10 +126,10 @@ const DK_CONTENT = {
     ],
 
     designProjects: [
-      { id: 'des-1', title: 'YouTube channel banner', tool: 'Figma, Photoshop', thumb: 'https://cdn.dekry.cc/img/design-1.jpg', link: 'https://t.me/des1n' },
-      { id: 'des-2', title: 'Ad creative for Facebook/Instagram', tool: 'Photoshop, Illustrator', thumb: 'https://cdn.dekry.cc/img/design-2.jpg', link: 'https://t.me/des1n' },
-      { id: 'des-3', title: 'Podcast cover art', tool: 'Figma, Photoshop', thumb: 'https://cdn.dekry.cc/img/design-3.jpg', link: 'https://t.me/des1n' },
-      { id: 'des-4', title: 'Identity for a personal brand', tool: 'Figma, Illustrator', thumb: 'https://cdn.dekry.cc/img/design-4.jpg', link: 'https://t.me/des1n' }
+      { id: 'des-1', title: 'YouTube channel banner', desc: 'YouTube channel banner design following platform guidelines.', tool: 'Figma, Photoshop', thumb: 'https://cdn.dekry.cc/img/design-1.jpg', link: 'https://t.me/des1n' },
+      { id: 'des-2', title: 'Ad creative for Facebook/Instagram', desc: 'Ad creative for targeted social media campaigns.', tool: 'Photoshop, Illustrator', thumb: 'https://cdn.dekry.cc/img/design-2.jpg', link: 'https://t.me/des1n' },
+      { id: 'des-3', title: 'Podcast cover art', desc: 'Minimalist cover art for Spotify and Apple Podcasts.', tool: 'Figma, Photoshop', thumb: 'https://cdn.dekry.cc/img/design-3.jpg', link: 'https://t.me/des1n' },
+      { id: 'des-4', title: 'Identity for a personal brand', desc: 'Full brand kit: logo, colors, typography, guidelines.', tool: 'Figma, Illustrator', thumb: 'https://cdn.dekry.cc/img/design-4.jpg', link: 'https://t.me/des1n' }
     ],
 
     skills: [
@@ -141,6 +152,17 @@ const DK_CONTENT = {
       { id: 'price-youtube', name: 'YouTube / Long-form Video', price: 'from $30', features: ['Full cycle: editing, sound design, color, graphics', 'Retention editing (keeps viewers watching)', 'End screens, timecodes, thumbnail creation (CTR)'], popular: false },
       { id: 'price-design', name: 'Design package (Brand / Ads)', price: 'from $8', features: ['Logo, color palette, typography, guidelines', 'Ad creatives (static/mobile video)', 'YouTube banner, avatars, video thumbnails'], popular: false }
     ],
+
+    stats: [
+      { number: 200, label: 'Videos edited' },
+      { number: 50, label: 'Happy clients' },
+      { number: 3, label: 'Years of experience' },
+      { number: 24, label: 'Response time' }
+    ],
+
+
+
+
 
     ui: {
       filterAll: 'All', filterReels: 'Reels / Shorts', filterYoutube: 'YouTube',
@@ -187,10 +209,10 @@ const DK_CONTENT = {
     ],
 
     designProjects: [
-      { id: 'des-1', title: 'Баннер для YouTube-канала', tool: 'Figma, Photoshop', thumb: 'https://cdn.dekry.cc/img/design-1.jpg', link: 'https://t.me/des1n' },
-      { id: 'des-2', title: 'Рекламный креатив для Facebook/Instagram', tool: 'Photoshop, Illustrator', thumb: 'https://cdn.dekry.cc/img/design-2.jpg', link: 'https://t.me/des1n' },
-      { id: 'des-3', title: 'Обложка для подкаста', tool: 'Figma, Photoshop', thumb: 'https://cdn.dekry.cc/img/design-3.jpg', link: 'https://t.me/des1n' },
-      { id: 'des-4', title: 'Айдентика для личного бренда', tool: 'Figma, Illustrator', thumb: 'https://cdn.dekry.cc/img/design-4.jpg', link: 'https://t.me/des1n' }
+      { id: 'des-1', title: 'Баннер для YouTube-канала', desc: 'Дизайн баннера для YouTube-канала с учётом гайдлайнов платформы.', tool: 'Figma, Photoshop', thumb: 'https://cdn.dekry.cc/img/design-1.jpg', link: 'https://t.me/des1n' },
+      { id: 'des-2', title: 'Рекламный креатив для Facebook/Instagram', desc: 'Рекламный креатив для таргетированной рекламы в соцсетях.', tool: 'Photoshop, Illustrator', thumb: 'https://cdn.dekry.cc/img/design-2.jpg', link: 'https://t.me/des1n' },
+      { id: 'des-3', title: 'Обложка для подкаста', desc: 'Минималистичная обложка для подкаста на Spotify и Apple Podcasts.', tool: 'Figma, Photoshop', thumb: 'https://cdn.dekry.cc/img/design-3.jpg', link: 'https://t.me/des1n' },
+      { id: 'des-4', title: 'Айдентика для личного бренда', desc: 'Полный брендпак: логотип, цвета, типографика, гайдлайны.', tool: 'Figma, Illustrator', thumb: 'https://cdn.dekry.cc/img/design-4.jpg', link: 'https://t.me/des1n' }
     ],
 
     skills: [
@@ -213,6 +235,17 @@ const DK_CONTENT = {
       { id: 'price-youtube', name: 'YouTube / Long-form Video', price: 'от $30', features: ['Полный цикл: монтаж, саунд-дизайн, цвет, графика', 'Ретеншн-монтаж (удерживает внимание зрителя)', 'Создание энд-скрина, таймкодов, обложки (CTR)'], popular: false },
       { id: 'price-design', name: 'Дизайн-пакет (Бренд / Реклама)', price: 'от $8', features: ['Логотип, цветовая палитра, типографика, гайдлайны', 'Креативы для рекламы (статика/мобильное видео)', 'YouTube баннер, аватарки, обложки для видео'], popular: false }
     ],
+
+    stats: [
+      { number: 200, label: 'Видео смонтировано' },
+      { number: 50, label: 'Довольных клиентов' },
+      { number: 3, label: 'Года опыта' },
+      { number: 24, label: 'Срок ответа' }
+    ],
+
+
+
+
 
     ui: {
       filterAll: 'Все', filterReels: 'Reels / Shorts', filterYoutube: 'YouTube',
