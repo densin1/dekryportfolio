@@ -388,7 +388,7 @@ img, video { max-width: 100%; display: block; }
 /* "dekry" wordmark — big translucent background layer, top of the section,
    faded downward so it dissolves into the content beneath it (no hard seam) */
 .landscape-footer__bgtext {
-  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  position: absolute; top: 0; left: 50%; transform: translateX(-50%);
   font-size: clamp(5.5rem, 3rem + 12vw, 15rem); font-weight: 800; line-height: 1;
   text-transform: lowercase; letter-spacing: -0.03em;
   color: rgba(255, 255, 255, 0.09); white-space: nowrap;
