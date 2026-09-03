@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderStats() {
     if (!statsGrid) return;
     statsGrid.innerHTML = C().stats
-      .map(s => `<div class="stat-item"><div class="stat-item__number" data-count="${s.number}"><span class="stat-val">0</span><span class="stat-plus">+</span></div><div class="stat-item__label">${s.label}</div></div>`)
+      .map(s => `<div class="stat-item"><div class="stat-item__number" data-count="${s.number}"><span class="stat-val">0</span><span class="stat-plus">${s.suffix !== undefined ? s.suffix : '+'}</span></div><div class="stat-item__label">${s.label}</div></div>`)
       .join('');
     statsAnimated = false;
     if (statsObs) statsObs.observe(statsGrid); // re-observe after DOM rebuild

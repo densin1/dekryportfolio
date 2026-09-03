@@ -74,7 +74,7 @@ const DK_CONTENT = {
       { number: 200, label: 'Відео змонтовано' },
       { number: 50, label: 'Задоволених клієнтів' },
       { number: 3, label: 'Роки досвіду' },
-      { number: 24, label: 'Термін відповіді' }
+      { number: 60, label: 'Термін відповіді', suffix: ' хв' }
     ],
 
 
@@ -157,7 +157,7 @@ const DK_CONTENT = {
       { number: 200, label: 'Videos edited' },
       { number: 50, label: 'Happy clients' },
       { number: 3, label: 'Years of experience' },
-      { number: 24, label: 'Response time' }
+      { number: 60, label: 'Response time', suffix: ' min' }
     ],
 
 
@@ -240,7 +240,7 @@ const DK_CONTENT = {
       { number: 200, label: 'Видео смонтировано' },
       { number: 50, label: 'Довольных клиентов' },
       { number: 3, label: 'Года опыта' },
-      { number: 24, label: 'Срок ответа' }
+      { number: 60, label: 'Срок ответа', suffix: ' мин' }
     ],
 
 
