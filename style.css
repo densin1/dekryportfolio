@@ -225,8 +225,7 @@ img, video { max-width: 100%; display: block; }
 .stat-item:hover { background: rgba(0, 82, 255, 0.06); }
 .stat-item__number { font-size: clamp(1.4rem, 1rem + 2vw, 2rem); font-weight: 800; background: linear-gradient(135deg, #fff, var(--accent-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 1.1; display: inline-flex; align-items: baseline; gap: 0.1em; }
 .stat-item__number.is-counted { transform: scale(1.08); transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1); }
-.stat-plus { opacity: 0; transform: translateX(-4px); transition: opacity 0.4s ease, transform 0.4s ease; font-size: 0.85em; }
-.stat-item__number.is-counted .stat-plus { opacity: 1; transform: translateX(0); }
+.stat-plus { opacity: 1; font-size: 0.85em; }
 .stat-item__label { font-size: 0.7rem; color: var(--text-muted); font-weight: 500; margin-top: 0.15rem; text-transform: uppercase; letter-spacing: 0.06em; }
 
 /* === SECTIONS === */
