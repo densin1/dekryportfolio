@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dekry.cc/sitemap.xml

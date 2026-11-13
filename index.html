@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="uk"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dekry | Контент для бізнесу й експертів що продає</title>
+<meta name="twitter:title" content="Dekry | Контент для бізнесу й експертів що продає">
+<meta name="description" content="Dekry: Reels, дизайн, сайти, Telegram-боти та ведення акаунта для бізнесу й експертів.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#08070f">
+<link rel="canonical" href="https://dekry.cc/">
+<link rel="preconnect" href="https://cdn.dekry.cc" crossorigin="">
+<meta property="og:type" content="website"><meta property="og:url" content="https://dekry.cc/"><meta property="og:title" content="Dekry | Контент для бізнесу й експертів що продає"><meta property="og:description" content="Dekry: Reels, дизайн, сайти, Telegram-боти та ведення акаунта для бізнесу й експертів."><meta property="og:locale" content="uk_UA"><meta name="twitter:card" content="summary_large_image"><meta property="og:image" content="https://cdn.dekry.cc/img/hero-poster.png">
+<link rel="icon" href="https://cdn.dekry.cc/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700;800&amp;display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Dekry","url":"https://dekry.cc/","description":"Reels, design, websites, Telegram bots and account management for businesses and experts.","email":"dendekri17@gmail.com","priceRange":"$8-$300","sameAs":["https://t.me/des1n","https://www.behance.net/5db91123"]}</script>
+<style>
+:root{--bg:#08070f;--ink:#0d0a1f;--ok:#5fe3a1;--tx:#f3f0fa;--mut:#a49fb8;--ln:rgba(255,255,255,.16);--gl:rgba(255,255,255,.05);--ac:#b3a5ff;--c1:#a193ff;--c2:#5ec8ff;--g:linear-gradient(135deg,var(--c1),var(--c2));--grid:rgba(255,255,255,.04);--sh:rgba(255,255,255,.5);--gt:linear-gradient(100deg,var(--ac),var(--c1) 38%,var(--c2));--e:cubic-bezier(.2,.7,.2,1);--d1:.2s;--d2:.45s;--d3:.9s;--d4:1.6s;--s1:clamp(18px,2.6vw,30px);--s2:clamp(28px,4vw,48px);--f:'Inter Tight','Segoe UI',Arial,sans-serif}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;color-scheme:dark;scroll-padding-top:84px;scroll-padding-bottom:88px}
+body{background:var(--bg);color:var(--tx);font:400 17px/1.55 var(--f);-webkit-font-smoothing:antialiased;padding-top:env(safe-area-inset-top,0);padding-bottom:env(safe-area-inset-bottom,0);overflow-x:hidden}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--ac);outline-offset:3px}
+.w{max-width:1180px;margin:0 auto;padding:0 22px}
+ul{list-style:none;padding:0}
+.btn{display:inline-block;text-decoration:none;font:800 15px var(--f);padding:13px 24px;border-radius:12px;border:1.5px solid var(--tx);transition:background .2s,border-color .2s,color .2s}
+@media(hover:hover){.btn:hover{border-color:var(--ac);color:var(--ac)}}
+.btn.p{background:var(--ac);border-color:var(--ac);color:var(--ink)}
+@media(hover:hover){.btn.p:hover{background:var(--tx);border-color:var(--tx);color:var(--ink)}}
+header{position:sticky;top:0;z-index:10;background:rgba(8,7,15,.55);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-bottom:1.5px solid var(--ln)}
+header .w{display:flex;align-items:center;gap:20px;height:68px}
+.logo{font:800 22px var(--f);text-decoration:none;letter-spacing:-.04em;margin-right:auto}
+.nv{display:flex;gap:24px}.nv a{text-decoration:none;color:var(--mut);font-size:15px}@media(hover:hover){.nv a:hover{color:var(--tx)}}
+.lang button{background:none;border:0;color:var(--mut);font:800 14px var(--f);padding:6px 7px;cursor:pointer}
+.lang button[aria-current]{color:var(--tx);text-decoration:underline;text-decoration-color:var(--ac);text-underline-offset:6px;text-decoration-thickness:3px}
+.hero h1{font:800 clamp(20px,6.5vw,82px)/.95 var(--f);letter-spacing:-.04em;margin:var(--s2) 0 var(--s1)}
+/* Первый экран — одна последовательность: фон проявляется (d4), чип → слова заголовка (шаг 120ms) → текст и кнопки → цифры, всё на одной кривой --e и длительности --d3 */
+.hr{display:flex;justify-content:space-between;align-items:flex-end;gap:var(--s1);flex-wrap:wrap;animation:up var(--d3) .62s var(--e) both}
+.sub{max-width:520px;font-size:20px;color:var(--mut)}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.st{display:inline-flex;gap:0;flex-wrap:wrap;margin:var(--s2) 0;animation:up var(--d3) .74s var(--e) both;background:var(--gl);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border:1.5px solid var(--ln);border-radius:14px}
+.st div{padding:16px 26px}.st div+div{border-left:1.5px solid var(--ln)}
+.st b{display:block;font:800 30px/1 var(--f);letter-spacing:-.03em}.st span{font-size:14px;color:var(--mut)}
+.hero{position:relative;isolation:isolate}
+.hbg{position:absolute;left:0;right:0;top:-68px;bottom:0;z-index:-1;overflow:hidden;pointer-events:none;-webkit-mask-image:linear-gradient(#000 70%,transparent);mask-image:linear-gradient(#000 70%,transparent)}
+.hbg:before{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:64px 64px;-webkit-mask-image:radial-gradient(ellipse 80% 70% at 50% 35%,#000,transparent);mask-image:radial-gradient(ellipse 80% 70% at 50% 35%,#000,transparent)}
+.hbg:after{content:"";position:absolute;inset:0;opacity:.09;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.hbg i{position:absolute;border-radius:50%;will-change:transform}
+.hbg i:nth-child(1){width:46vw;height:46vw;max-width:620px;max-height:620px;background:radial-gradient(closest-side,var(--ac),transparent);opacity:.22;top:6%;left:-4%;animation:g1 24s ease-in-out infinite alternate}
+.hbg i:nth-child(2){width:40vw;height:40vw;max-width:540px;max-height:540px;background:radial-gradient(closest-side,var(--c2),transparent);opacity:.16;top:34%;right:-2%;animation:g2 30s ease-in-out infinite alternate}
+.hbg i:nth-child(3){width:34vw;height:34vw;max-width:460px;max-height:460px;background:radial-gradient(closest-side,var(--c1),transparent);opacity:.18;top:48%;left:36%;animation:g3 27s ease-in-out infinite alternate}
+@keyframes g1{to{transform:translate(9vw,6vh) scale(1.12)}}@keyframes g2{to{transform:translate(-8vw,8vh) scale(.92)}}@keyframes g3{to{transform:translate(-6vw,-7vh) scale(1.1)}}
+@media(max-width:700px){.hbg i:nth-child(1){width:90vw;height:90vw}.hbg i:nth-child(2){width:80vw;height:80vw;top:30%}.hbg i:nth-child(3){display:none}.hbg:before{background-size:44px 44px}}
+@media(prefers-reduced-motion:reduce){.hbg i:nth-child(n){animation:none}}
+.bg canvas{position:absolute;inset:0;width:100%;height:100%;opacity:0;transition:opacity var(--d4) var(--e)}
+/* Лёгкие детали: фон плавно проявляется при загрузке (только opacity) и отблеск по кнопкам при наведении (только CSS, только на устройствах с мышью) */
+.bg,.hbg{animation:bgin var(--d4) var(--e) both}@keyframes bgin{from{opacity:0}}
+.btn{position:relative;overflow:hidden}.fl{overflow:hidden}
+.btn:after,.fl:after{content:"";position:absolute;top:0;bottom:0;left:-55%;width:40%;background:linear-gradient(100deg,transparent,var(--sh),transparent);transform:skewX(-18deg);opacity:0;pointer-events:none}
+@media(hover:hover){.btn:hover:after,.fl:hover:after{opacity:1;transform:translateX(420%) skewX(-18deg);transition:transform var(--d3) var(--e),opacity var(--d1)}}
+@media(prefers-reduced-motion:reduce){.bg,.hbg{animation:none}.btn:after,.fl:after{display:none}}
+.glbg .bg canvas{opacity:1}.glbg .bg i,.glbg .hbg i{display:none}
+@keyframes up{from{transform:translateY(24px);opacity:0}}
+.vs{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 22px 6px;scrollbar-width:none;max-width:1180px;margin:0 auto}
+.vs::-webkit-scrollbar{display:none}
+.vt{flex:0 0 clamp(190px,24%,284px);aspect-ratio:9/15;border-radius:14px;overflow:hidden;background:var(--gl);border:1.5px solid var(--ln);scroll-snap-align:start}
+.vt{background:linear-gradient(160deg,#1d1a2e,#120f22)}
+.vt video{width:100%;height:100%;object-fit:cover;display:block}
+section{padding:clamp(56px,8vw,96px) 0}
+h2{font:800 clamp(30px,5vw,56px)/1 var(--f);letter-spacing:-.03em;margin-bottom:40px}
+.bn{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:minmax(190px,auto);gap:14px}
+.tl{background:var(--gl);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border:1.5px solid var(--ln);border-radius:14px;padding:26px;display:flex;flex-direction:column;gap:10px;text-decoration:none;transition:border-color .2s,transform .2s}
+@media(hover:hover){.tl:hover{border-color:var(--tx);transform:translateY(-3px)}}
+.tl h3{font:800 24px/1.1 var(--f);letter-spacing:-.03em}.tl p{color:var(--mut);font-size:16px}
+.tf{margin-top:auto;padding-top:8px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+.pr{font:800 26px/1 var(--f);letter-spacing:-.02em;color:var(--tx);white-space:nowrap}.pr small{font:500 14px var(--f);letter-spacing:0;color:var(--mut)}
+.go{flex:none;width:42px;height:42px;border-radius:50%;border:1.5px solid var(--ln);display:grid;place-items:center;color:var(--tx);transition:background .25s,border-color .25s,color .25s,transform .25s}
+@media(hover:hover){.tl:hover .go,.ocd:hover .go,.cn a:hover .go{background:var(--ac);border-color:var(--ac);color:var(--ink);transform:rotate(-45deg)}}
+.tl.lg{grid-column:span 2;grid-row:span 2;border-radius:22px;padding:34px}.tl.lg h3{margin-top:auto;font-size:clamp(34px,4.4vw,58px);letter-spacing:-.035em}.tl.lg p{font-size:18px;max-width:420px}.tl.lg .tf{margin-top:10px}.tl.lg .pr{font-size:34px}
+.tl.wd{grid-column:span 2}
+.tl.sm{grid-column:span 2;flex-direction:row;align-items:center;gap:18px;padding:22px 26px}.tl.sm .ic{margin:0;flex:none}.tl.sm>div{flex:1;min-width:0}.tl.sm h3{font-size:21px;margin-bottom:4px}.tl.sm p{font-size:15px}.tl.sm .tf{margin:0;padding:0}
+.dg{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:14px}
+.dg img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px;display:block;background:var(--gl);border:1.5px solid var(--ln)}
+.stp{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;counter-reset:s}
+.stp li{border-top:1.5px solid var(--ln);padding-top:22px}
+.stp li::before{counter-increment:s;content:counter(s);display:block;font:800 15px var(--f);color:var(--ac);margin-bottom:30px}
+.stp h3{font:800 24px var(--f);letter-spacing:-.03em;margin-bottom:8px}.stp p{color:var(--mut)}
+.ocs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.ocd{display:flex;flex-direction:column;gap:8px;padding:24px;background:var(--gl);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border:1.5px solid var(--ln);border-radius:18px;text-decoration:none;transition:border-color .2s,transform .2s}
+@media(hover:hover){.ocd:hover{border-color:var(--tx);transform:translateY(-3px)}}
+.ocd h3{font:800 21px/1.15 var(--f);letter-spacing:-.02em}.ocd p{color:var(--mut);font-size:15px}.ocd .tf{padding-top:14px}
+.nt{margin-top:22px;color:var(--mut);font-size:15px}
+details{background:var(--gl);border:1.5px solid var(--ln);border-radius:12px;padding:20px 24px;margin-bottom:10px}
+details[open]{border-color:var(--ac)}
+summary{font:800 20px var(--f);letter-spacing:-.02em;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}summary::after{content:"+";content:"+"/"";color:var(--ac);font-size:26px;line-height:1}details[open] summary::after{content:"−";content:"−"/""}
+details p{margin-top:12px;color:var(--mut);max-width:620px}
+.ct{padding-top:0;padding-bottom:clamp(40px,6vw,72px)}
+.cbx{display:grid;grid-template-columns:1.15fr 1fr;gap:48px;align-items:center;padding:clamp(28px,5vw,60px);border:1.5px solid var(--ln);border-radius:28px;background:radial-gradient(640px circle at 0% 0%,rgba(161,147,255,.22),transparent 62%),radial-gradient(520px circle at 100% 100%,rgba(94,200,255,.16),transparent 62%),rgba(255,255,255,.035);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px)}
+.cbx h2{margin-bottom:16px;font-size:clamp(34px,5vw,64px)}
+.csub{color:var(--mut);font-size:18px;max-width:470px;margin-bottom:28px}
+.cn{display:grid;gap:10px}
+.cn a{display:flex;align-items:center;gap:16px;padding:16px 18px;border:1.5px solid var(--ln);border-radius:16px;background:rgba(8,7,15,.4);text-decoration:none;transition:border-color .2s,transform .2s}
+@media(hover:hover){.cn a:hover{border-color:var(--ac);transform:translateX(4px)}}
+.cn .ic{margin:0;flex:none}.cn a>span:nth-child(2){flex:1;min-width:0}
+.cn b{display:block;font:800 18px/1.2 var(--f)}.cn small{display:block;color:var(--mut);font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+footer{padding:26px 0 40px;color:var(--mut);font-size:14px;border-top:1.5px solid var(--ln)}
+.fl{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:9}
+
+/* ---- motion and light ---- */
+.bg{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.bg i{position:absolute;border-radius:50%;will-change:transform}
+.bg i:nth-child(1){width:64vw;height:64vw;background:radial-gradient(closest-side,var(--c1),transparent);opacity:.4;top:-14vw;right:-8vw;animation:f1 22s ease-in-out infinite alternate}
+.bg i:nth-child(2){width:54vw;height:54vw;background:radial-gradient(closest-side,var(--c2),transparent);opacity:.22;top:32vh;left:-14vw;animation:f2 28s ease-in-out infinite alternate}
+.bg i:nth-child(3){width:48vw;height:48vw;background:radial-gradient(closest-side,var(--ac),transparent);opacity:.22;bottom:-12vw;right:12vw;animation:f3 26s ease-in-out infinite alternate}
+@keyframes f1{to{transform:translate(-10vw,12vh) scale(1.15)}}@keyframes f2{to{transform:translate(14vw,-10vh) scale(1.2)}}@keyframes f3{to{transform:translate(-12vw,-14vh) scale(.9)}}
+.cur{position:absolute;left:0;top:0;width:560px;height:560px;margin:-280px 0 0 -280px;border-radius:50%;background:radial-gradient(closest-side,rgba(179,165,255,.17),transparent);transform:translate3d(var(--cx,62vw),var(--cy,24vh),0);transition:transform var(--d2) var(--e)}
+body::after{content:"";position:fixed;inset:0;z-index:100;pointer-events:none;opacity:.06;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+h1 .w2{display:inline-block;overflow:hidden;vertical-align:top;padding:0 .05em .12em 0;margin-bottom:-.12em}
+h1 .w2>span{display:inline-block;animation:rise var(--d3) var(--e) both}
+@keyframes rise{from{transform:translateY(108%)}}
+.vs{padding-top:8px;margin-top:-8px;padding-bottom:40px;align-items:flex-start}.vt:nth-child(2n){margin-top:32px}
+.vt video{transition:transform .7s cubic-bezier(.2,.7,.2,1)}@media(hover:hover){.vt:hover video{transform:scale(1.06)}}
+.mq{overflow:hidden;margin-top:40px;border-block:1.5px solid var(--ln);padding:14px 0}
+.mt{display:flex;width:max-content;animation:mq 36s linear infinite}
+.mt span{font:800 clamp(40px,8vw,104px)/1 var(--f);letter-spacing:-.03em;color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,.4);white-space:nowrap}
+.mt span::after{content:"";display:inline-block;width:.16em;height:.16em;border-radius:50%;background:var(--ac);margin:0 .45em;vertical-align:middle;-webkit-text-stroke:0}
+@keyframes mq{to{transform:translateX(-50%)}}
+.tl{position:relative;overflow:hidden}
+.tl>*{position:relative}
+.tl::after{content:"";position:absolute;inset:0;background:radial-gradient(320px circle at var(--mx,50%) var(--my,0%),rgba(179,165,255,.2),transparent 60%);opacity:0;transition:opacity .3s;pointer-events:none}
+@media(hover:hover){.tl:hover::after{opacity:1}}
+.rvl{opacity:0}
+.rvl.in{opacity:1;animation:rise2 var(--d3) var(--e) backwards}
+@keyframes rise2{from{opacity:0;transform:translateY(30px)}}
+@media(pointer:coarse){.cur{display:none}}
+@media(max-width:700px){.bg i:nth-child(3){display:none}.vt:nth-child(2n){margin-top:20px}}
+@media(prefers-reduced-motion:reduce){.chip i,.bg i,.mt,h1 .w2>span{animation:none}.rvl{opacity:1}.cur{display:none}.vt video{transition:none}}
+
+/* ---- details ---- */
+html{scrollbar-color:#3a3555 transparent}
+::selection{background:var(--ac);color:var(--ink)}
+h1,h2,h3,h4{text-wrap:balance}p{text-wrap:pretty}
+.tl .pr,.st b{font-variant-numeric:tabular-nums}
+.sk{position:fixed;left:16px;top:-60px;z-index:200;background:var(--ac);color:var(--ink);padding:10px 16px;border-radius:10px;font-weight:800;text-decoration:none}.sk:focus{top:12px}
+.pg{position:fixed;left:0;top:0;height:3px;width:100%;background:var(--ac);transform:scaleX(0);transform-origin:0 50%;z-index:150}
+.nv a[aria-current]{color:var(--tx);box-shadow:0 2px 0 var(--ac)}
+.chip{display:inline-flex;align-items:center;gap:10px;margin-top:var(--s2);animation:up var(--d3) var(--e) both;padding:8px 16px 8px 14px;border:1.5px solid var(--ln);border-radius:999px;background:var(--gl);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);font-size:14px;color:var(--mut)}
+.chip i{width:9px;height:9px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 0 rgba(95,227,161,.6);animation:pl 2s infinite}
+@keyframes pl{70%{box-shadow:0 0 0 10px rgba(95,227,161,0)}100%{box-shadow:0 0 0 0 rgba(95,227,161,0)}}
+.chip+h1{margin-top:var(--s1)}
+.ic{width:46px;height:46px;border-radius:12px;border:1.5px solid var(--ln);display:grid;place-items:center;color:var(--ac);background:rgba(179,165,255,.08);margin-bottom:8px}
+.tl.lg .ic{width:56px;height:56px;border-radius:14px}
+.ic svg{width:60%;height:60%}
+.cs{display:flex;gap:8px;flex-wrap:wrap}.cs span{font-size:13px;font-weight:700;padding:5px 12px;border:1.5px solid var(--ln);border-radius:999px;color:var(--mut)}
+.tl .cs{margin-top:6px}
+.by{display:flex;align-items:center;gap:14px;margin-top:20px}.by p{margin:0}
+.av{flex:none;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font:800 15px var(--f);color:var(--ink);background:var(--g)}
+.stp li{position:relative}
+.stp li::after{content:"";position:absolute;top:-6px;left:0;width:10px;height:10px;border-radius:50%;background:var(--ac);box-shadow:0 0 0 5px rgba(179,165,255,.18)}
+.dg img{cursor:zoom-in;transition:transform .5s cubic-bezier(.2,.7,.2,1),border-color .2s}@media(hover:hover){.dg img:hover{transform:scale(1.02);border-color:var(--ac)}}
+dialog{margin:auto;background:transparent;border:0;padding:0;max-width:94vw;max-height:94vh;overflow:visible}
+dialog::backdrop{background:rgba(5,4,10,.85);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+dialog img{display:block;max-width:94vw;max-height:90vh;border-radius:14px;cursor:zoom-out}
+.ft{display:grid;grid-template-columns:1.4fr 1fr 1fr auto;gap:30px;align-items:start;padding-top:44px}
+.ft .logo{color:var(--tx)}.ft p{margin-top:8px;max-width:260px}.ft nav{display:flex;flex-direction:column;gap:0}.ft nav a{text-decoration:none;color:var(--mut);padding:5px 0}@media(hover:hover){.ft nav a:hover{color:var(--tx)}}
+.cp{padding-top:34px}
+
+/* ---- reviews wall ---- */
+.rh{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;margin-bottom:40px}.rh h2{margin:0}
+.ar{display:flex;gap:8px}.ar button{width:48px;height:48px;border-radius:50%;border:1.5px solid var(--ln);background:var(--gl);color:var(--tx);font:800 20px var(--f);cursor:pointer;transition:border-color .2s,color .2s}@media(hover:hover){.ar button:hover{border-color:var(--ac);color:var(--ac)}}
+/* Карточки целиком: 3 / 2 / 1 в ряд, без обрезанной справа; разделители и авторы на одной высоте (subgrid) */
+.rw{--rn:3;--rg:14px;display:flex;gap:var(--rg);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px}.rw::-webkit-scrollbar{display:none}
+.rc{flex:0 0 calc((100% - (var(--rn) - 1) * var(--rg)) / var(--rn));min-width:0;scroll-snap-align:start;display:flex;flex-direction:column;margin:0;padding:24px;background:var(--gl);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border:1.5px solid var(--ln);border-radius:16px}
+.rs{display:flex;gap:3px;color:var(--ac)}
+.rc q{display:block;quotes:none;font:500 18px/1.45 var(--f);letter-spacing:-.01em;margin:16px 0 0}
+.rc q{margin-bottom:22px}.rc .by{margin-top:auto;padding-top:18px;border-top:1.5px solid var(--ln)}
+@supports (grid-template-rows:subgrid){.rw{display:grid;grid-auto-flow:column;grid-template-rows:auto auto auto;grid-auto-columns:calc((100% - (var(--rn) - 1) * var(--rg)) / var(--rn));column-gap:var(--rg);row-gap:0}.rc{grid-row:span 3;display:grid;grid-template-rows:subgrid;row-gap:0}.rc .by{margin-top:0}}
+@media(max-width:900px){.rw{--rn:2}}
+@media(max-width:620px){.rw{--rn:1}}
+.rc .by p{font-size:14px;line-height:1.4;color:var(--mut)}.rc .by b{color:var(--tx);font-size:15px}
+/* ---- pricing cards + tabs ---- */
+.tabs{display:inline-flex;gap:4px;padding:5px;border:1.5px solid var(--ln);border-radius:999px;background:var(--gl);margin-bottom:28px}
+.tabs button{border:0;background:none;color:var(--mut);font:800 15px var(--f);padding:11px 22px;border-radius:999px;cursor:pointer;transition:background .2s,color .2s}
+.tabs button[aria-selected=true]{background:var(--tx);color:var(--ink)}
+.pks{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.pcd{display:flex;flex-direction:column;gap:14px;padding:30px;background:var(--gl);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border:1.5px solid var(--ln);border-radius:18px}
+.pcd h3{font:800 28px/1 var(--f);letter-spacing:-.025em}
+.pcd .pt{color:var(--mut);font-size:15px;margin-top:-6px}
+.pcd .pp{font:800 44px/1 var(--f);letter-spacing:-.03em;margin:8px 0;font-variant-numeric:tabular-nums}
+.pcd .pp small{font:500 16px var(--f);color:var(--mut);letter-spacing:0}
+.pcd ul{display:grid;gap:12px;margin-bottom:12px}
+.pcd li{padding-left:30px;position:relative;font-size:16px}
+.pcd li::before{content:"";position:absolute;left:0;top:.15em;width:20px;height:20px;border-radius:50%;background:rgba(179,165,255,.16) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.5l2.8 2.8L12 5.5' fill='none' stroke='%23b3a5ff' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/13px no-repeat}
+.pcd .btn{margin-top:auto;text-align:center}
+.ph{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.bdg{font:800 12px var(--f);text-transform:uppercase;letter-spacing:.08em;padding:6px 11px;border-radius:999px;background:var(--ac);color:var(--ink);white-space:nowrap}
+.pcd.hot{border-color:var(--ac);background:linear-gradient(180deg,rgba(179,165,255,.16),rgba(179,165,255,.03) 60%);box-shadow:0 20px 60px -30px rgba(161,147,255,.6)}
+@media(max-width:900px){.pks{grid-template-columns:1fr}.ocs{grid-template-columns:1fr 1fr}.cbx{grid-template-columns:1fr;gap:30px}.tl.lg{min-height:440px}.ft{grid-template-columns:1fr 1fr}.ft .up{justify-self:start}.bn{grid-template-columns:1fr 1fr}.tl.lg,.tl.wd{grid-column:span 2}.tl.lg{grid-row:auto}.dg{grid-template-columns:1fr 1fr}.stp{grid-template-columns:1fr}.nv{display:none}}
+@media(max-width:520px){header .btn{padding:8px 14px;font-size:13px}.fl{display:none}.bn{grid-template-columns:1fr}.tl.lg,.tl.wd,.tl.sm{grid-column:auto}.tl.lg{min-height:400px;padding:26px}.tl.sm{flex-wrap:wrap;padding:22px}.tl.sm>div{flex-basis:calc(100% - 64px)}.tl.sm .tf{width:100%}.ocs{grid-template-columns:1fr}.cbx .cta .btn{flex:1;text-align:center}.cbx{border-radius:22px}.st{display:grid;grid-template-columns:repeat(3,1fr);width:100%}.st div{padding:12px 10px}.st b{font-size:22px}.st span{display:block;font-size:12px;line-height:1.25}header .w{gap:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}h1,.hr,.chip,.st{animation:none}*{transition:none!important}}
+/* ---- mobile menu ---- */
+.mb{display:none;width:44px;height:44px;flex:none;border:1.5px solid var(--ln);border-radius:12px;background:none;color:var(--tx);cursor:pointer;flex-direction:column;justify-content:center;align-items:center;gap:6px;padding:0}
+.mb i{display:block;width:18px;height:2px;background:currentColor;border-radius:2px;transition:transform .25s}
+.mb[aria-expanded=true] i:first-child{transform:translateY(4px) rotate(45deg)}.mb[aria-expanded=true] i:last-child{transform:translateY(-4px) rotate(-45deg)}
+.mm{position:absolute;left:0;right:0;top:100%;display:flex;flex-direction:column;padding:6px 22px 26px;background:rgba(8,7,15,.97);border-bottom:1.5px solid var(--ln)}
+.mm[hidden]{display:none}
+.mm a:not(.btn){font:800 30px/1 var(--f);letter-spacing:-.03em;text-decoration:none;padding:16px 0;border-bottom:1.5px solid var(--ln)}
+.mm .btn{margin-top:22px;text-align:center}
+/* ---- work ---- */
+.lead{color:var(--mut);margin:-26px 0 30px}
+.wg{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.wc,.vt{position:relative;display:block;padding:0;color:var(--tx);text-decoration:none;cursor:pointer}
+.wc{border:1.5px solid var(--ln);border-radius:14px;overflow:hidden;background:linear-gradient(160deg,#1d1a2e,#120f22);aspect-ratio:9/16;transition:border-color .2s,transform .2s}
+@media(hover:hover){.wc:hover{border-color:var(--tx);transform:translateY(-3px)}}
+.wc.yt{grid-column:span 3;aspect-ratio:16/9}
+.wc img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.7,.2,1)}
+@media(hover:hover){.wc:hover img{transform:scale(1.05)}}
+.wc::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(8,7,15,.75) 62%,rgba(8,7,15,.96))}
+.wo{position:absolute;left:14px;right:14px;bottom:14px;z-index:1;display:flex;flex-direction:column;align-items:flex-start;gap:6px}
+.wo h3{font:800 17px/1.15 var(--f);letter-spacing:-.02em}.wc.yt .wo h3{font-size:clamp(20px,2.2vw,28px)}
+.wk{font:800 12px var(--f);text-transform:uppercase;letter-spacing:.1em;color:var(--mut)}
+.wm{font:800 13px var(--f);padding:4px 10px;border-radius:999px;background:var(--ac);color:var(--ink)}
+.pi{position:absolute;right:12px;top:12px;z-index:1;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;color:var(--tx);background:rgba(8,7,15,.55);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1.5px solid rgba(255,255,255,.25);transition:transform .2s,background .2s,color .2s}
+@media(hover:hover){.wc:hover .pi,.vt:hover .pi{background:var(--ac);color:var(--ink);transform:scale(1.08)}}
+.wh{font:800 13px var(--f);color:var(--mut);text-transform:uppercase;letter-spacing:.1em;margin:56px 0 16px}
+.dg{margin-top:0}
+/* ---- about ---- */
+.ab{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.ab .ld{font:500 clamp(20px,2.2vw,26px)/1.4 var(--f);letter-spacing:-.015em}
+.ab .wh{margin:34px 0 12px}
+.vl,.tm{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.tm{grid-template-columns:repeat(4,1fr)}
+.vl li,.tm li{background:var(--gl);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border:1.5px solid var(--ln);border-radius:14px;padding:22px}
+.vl h3,.tm h3{font:800 20px/1.15 var(--f);letter-spacing:-.02em;margin-bottom:8px}
+.vl h3::before{content:"";display:block;width:10px;height:10px;border-radius:50%;background:var(--ac);box-shadow:0 0 0 5px rgba(179,165,255,.18);margin:4px 0 18px 4px}
+.vl p,.tm p{color:var(--mut);font-size:15px}
+/* ---- video modal ---- */
+.vb{position:relative;display:grid;grid-template-columns:auto minmax(0,340px);gap:30px;align-items:center;background:#0e0c19;border:1.5px solid var(--ln);border-radius:22px;padding:18px}
+.vd video{display:block;height:min(80vh,760px);aspect-ratio:9/16;border-radius:14px;background:#000}
+.vd.yt .vb{grid-template-columns:1fr;width:min(960px,94vw)}
+.vd.yt video{width:100%;height:auto;aspect-ratio:16/9;max-height:68vh}
+.vi{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:8px 12px 8px 0}
+.vi h3{font:800 clamp(24px,3vw,34px)/1.05 var(--f);letter-spacing:-.03em}
+.vi p{color:var(--mut)}.vi .btn{margin-top:8px}
+.vx{position:absolute;top:-16px;right:-16px;z-index:2;width:44px;height:44px;border-radius:50%;border:1.5px solid var(--ln);background:#0e0c19;color:var(--tx);font:400 28px/1 var(--f);cursor:pointer}@media(hover:hover){.vx:hover{border-color:var(--ac);color:var(--ac)}}
+@media(max-width:900px){.mb{display:flex}.wg{grid-template-columns:repeat(3,1fr)}.ab{grid-template-columns:1fr;gap:30px}.tm{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.vb{grid-template-columns:1fr;gap:14px;padding:12px;max-height:92vh;overflow:auto}.vd video{height:min(58vh,560px);margin:0 auto}.vd.yt video{height:auto}.vi{padding:4px}.vx{top:8px;right:8px}}
+@media(max-width:520px){.wg{grid-template-columns:1fr 1fr;gap:10px}.wc.yt{grid-column:span 2}.wo{left:10px;right:10px;bottom:10px}.wo h3{font-size:15px}.pi{width:34px;height:34px;right:8px;top:8px}.vl,.tm{gap:10px}.vl li,.tm li{padding:16px}.vl h3,.tm h3{font-size:17px}.vl p,.tm p{font-size:14px}.rh{margin-bottom:28px}.ar button{width:42px;height:42px}}
+
+/* ---- v2: scroll choreography, micro-interactions ---- */
+h1 .gr{background:var(--gt);-webkit-background-clip:text;background-clip:text;color:transparent}
+header{transition:transform var(--d2) var(--e)}
+header.hd{transform:translateY(-101%)}
+.btn{transition:background var(--d1),border-color var(--d1),color var(--d1),transform var(--d2) var(--e),scale .15s ease-out}
+.btn.p{box-shadow:0 10px 30px -12px rgba(161,147,255,.75)}
+.btn,.fl{-webkit-tap-highlight-color:transparent}
+@media(prefers-reduced-motion:no-preference){.btn:active,.fl:active{scale:.96}}
+.lang button{min-height:40px}
+/* floating Telegram: appears after the hero, hides near the contact block */
+.fl{display:inline-flex!important;align-items:center;gap:10px;height:56px;padding:0 22px 0 18px;border-radius:999px;background:var(--ac);color:var(--ink);font:800 15px var(--f);text-decoration:none;box-shadow:0 14px 40px -12px rgba(161,147,255,.8);opacity:0;transform:translateY(20px) scale(.9);pointer-events:none;visibility:hidden;transition:opacity .3s,transform .35s cubic-bezier(.2,.7,.2,1),background .2s,scale .15s ease-out,visibility 0s .35s}
+.fl.on{opacity:1;transform:none;pointer-events:auto;visibility:visible;transition-delay:0s}
+@media(hover:hover){.fl:hover{background:var(--tx)}}
+@media(max-width:700px){.fl{width:56px;padding:0;justify-content:center}.fl span{display:none}}
+/* work cards: 3D tilt driven by --rx/--ry */
+.wc,.vt{transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(var(--ty,0px));transition:border-color .2s,transform .45s cubic-bezier(.2,.7,.2,1)}
+.vt{transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(var(--py,0px))}
+@media(hover:hover){.wc:hover{transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(-4px)}}
+.wc.tilt,.vt.tilt{transition:border-color .2s,transform .12s linear}
+/* process: progress line filled on scroll via --p */
+.stp{position:relative}
+.stp::before{content:"";position:absolute;left:0;right:0;top:0;height:1.5px;background:var(--g);transform:scaleX(var(--p,1));transform-origin:0 50%;z-index:1;pointer-events:none}
+.stp li::after{z-index:2;transition:background .3s,box-shadow .3s}
+.stp.js li:not(.on)::after{background:#3a3555;box-shadow:none}
+.stp li h3,.stp li p{transition:opacity .4s}
+.stp.js li:not(.on) h3{opacity:.45}.stp.js li:not(.on) p{opacity:.75}
+@media(max-width:900px){
+ .stp{gap:0;padding-left:30px}
+ .stp::after{content:"";position:absolute;left:4px;top:4px;bottom:34px;width:1.5px;background:var(--ln)}
+ .stp::before{left:4px;right:auto;bottom:34px;width:1.5px;height:auto;top:4px;transform:scaleY(var(--p,1));transform-origin:50% 0}
+ .stp li{border-top:0;padding:0 0 34px}
+ .stp li::after{top:4px;left:-30px}
+ .stp li::before{margin-bottom:8px}
+}
+@media(pointer:coarse){.wc,.vt{transform:none}}
+@media(prefers-reduced-motion:reduce){.wc,.vt{transform:none}header.hd{transform:none}.fl{transition:none}}
+
+/* ---- v3: conversion and usability ---- */
+.hc{display:flex;flex-direction:column;gap:12px;align-items:flex-start}
+.chn{color:var(--mut);font-size:15px;margin:-14px 0 24px;padding-left:14px;border-left:3px solid var(--ac);max-width:470px}
+.dzb{display:block;padding:0;border:0;background:none;border-radius:12px;cursor:zoom-in}
+.dzb img{pointer-events:none}
+#lb .vx{top:8px;right:8px}
+.vt .pi{transition:opacity .2s}.vt.pl .pi{opacity:0}
+@media(max-width:520px){.lang button{padding:6px 4px;font-size:13px}header .w{gap:8px}.hc,.hc .cta{width:100%}.hc .btn{flex:1 1 100%;text-align:center}}
+@media(max-width:400px){header .w>.btn{display:none}}
+@media(max-width:700px){.fl{width:auto;padding:0 20px 0 16px}.fl span{display:inline}}
+/* ---- v4: акценты и живые детали (тайминги --d2/--e из #11) ---- */
+/* «Ріст»: градиентная рамка, свечение, приподнята над соседями */
+.pcd.hot{position:relative;border-color:transparent;box-shadow:0 30px 80px -34px rgba(94,200,255,.55),0 20px 60px -30px rgba(161,147,255,.7)}
+.pcd.hot::before{content:"";position:absolute;inset:-1.5px;border-radius:inherit;padding:1.5px;background:var(--g);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+@media(min-width:901px){.pks{align-items:center}.pcd.hot{padding-block:42px}}
+/* Вкладки: белая подложка переезжает к выбранной */
+.tabs{position:relative}.tabs button{position:relative;z-index:1}
+.tabs.js::before{content:"";position:absolute;top:5px;bottom:5px;left:0;width:var(--tw,0);transform:translateX(var(--tl,0));border-radius:999px;background:var(--tx)}
+.tabs.js.rd::before{transition:transform var(--d2) var(--e),width var(--d2) var(--e)}
+.tabs.js button[aria-selected=true]{background:none}
+/* FAQ: «+» поворачивается в «×», высоту плавно анимирует JS */
+summary::after{display:inline-block;transition:transform var(--d2) var(--e)}
+details[open] summary::after{content:"+";content:"+"/""}
+details[open]:not(.cl) summary::after{transform:rotate(45deg)}
+/* Telegram: самолётик улетает и прилетает обратно */
+.tg{display:inline-flex;align-items:center;justify-content:center;gap:10px}
+.tgi{flex:none}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){.tg:hover .tgi,.tg:focus-visible .tgi,.fl:hover .tgi{animation:fly .7s var(--e)}}
+@keyframes fly{45%{transform:translate(20px,-20px);opacity:0}46%{transform:translate(-16px,16px);opacity:0}}
+/* Бегущая строка: залитое / контурное, слово под курсором — градиент */
+.mt span:nth-child(odd){color:var(--tx);-webkit-text-stroke:0}
+@media(hover:hover){.mt span:hover{background:var(--gt);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-stroke:0}}
+@media(prefers-reduced-motion:reduce){.tabs.js.rd::before,summary::after{transition:none}}
+/* Финал: свечение под футером */
+footer{background:radial-gradient(70% 60% at 50% 100%,rgba(161,147,255,.16),transparent)}
+</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true"><i></i><i></i><i></i><div class="cur" style=""></div></div>
+<a class="sk" href="#top" data-t="skip">До змісту</a><div class="pg" aria-hidden="true" style=""></div>
+<header><div class="w">
+<a class="logo" href="#top">dekry</a>
+<nav class="nv"><a href="#work" data-t="n2">Роботи</a><a href="#services" data-t="n1">Послуги</a><a href="#about" data-t="n5">Про нас</a><a href="#pricing" data-t="n3">Ціни</a><a href="#faq" data-t="n4">FAQ</a></nav>
+<div class="lang" role="group" aria-label="Мова" data-a="lg"><button type="button" data-l="uk" aria-current="true">UA</button><button type="button" data-l="ru">RU</button><button type="button" data-l="en">EN</button></div>
+<a class="btn" href="#contact" data-t="nav">Написати</a>
+<button type="button" class="mb" aria-expanded="false" aria-controls="mm" data-a="mn" aria-label="Меню"><i></i><i></i></button>
+</div>
+<nav class="mm" id="mm" hidden><a href="#work" data-t="n2">Роботи</a><a href="#services" data-t="n1">Послуги</a><a href="#about" data-t="n5">Про нас</a><a href="#pricing" data-t="n3">Ціни</a><a href="#faq" data-t="n4">FAQ</a><a class="btn p" href="#contact" data-t="c1">Написати в Telegram</a></nav>
+</header>
+
+<main id="top">
+<div class="hero"><div class="hbg" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="w">
+<div class="chip"><i></i><span data-t="chip">Відповідаємо протягом кількох годин</span></div>
+<h1 data-t="h1" aria-label="Контент для бізнесу й експертів що продає"><span class="w2" aria-hidden="true"><span style="animation-delay:80ms">Контент</span></span> <span class="w2" aria-hidden="true"><span style="animation-delay:200ms">для</span></span> <span class="w2" aria-hidden="true"><span style="animation-delay:320ms">бізнесу</span></span> <span class="w2" aria-hidden="true"><span style="animation-delay:440ms">й</span></span> <span class="w2" aria-hidden="true"><span style="animation-delay:560ms">експертів</span></span> <span class="w2" aria-hidden="true"><span class="gr" style="animation-delay:680ms">що</span></span> <span class="w2" aria-hidden="true"><span class="gr" style="animation-delay:800ms">продає</span></span></h1>
+<div class="hr">
+<p class="sub" data-t="sub">Reels, креативи, брендинг і ведення акаунта. Також сайти та Telegram-боти.</p>
+<div class="hc"><div class="cta"><a class="btn p tg" href="#contact"><span data-t="c1">Написати в Telegram</span><svg class="tgi" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 4L3 11l6 2.5L11.5 20l3-4.5L19 19z"/><path d="M9 13.5L21 4"/></svg></a><a class="btn" href="#work" data-t="c2">Дивитися роботи</a></div></div>
+</div>
+<div class="st" id="st"><div><b data-n="500" data-s="+">500+</b><span>відео та креативів</span></div><div><b data-n="100" data-s="+">100+</b><span>клієнтів</span></div><div><b data-n="3" data-s="">3</b><span>роки досвіду</span></div></div>
+</div></div>
+
+<div class="vs">
+<a class="vt" href="https://cdn.dekry.cc/video/project-2-preview.MP4" data-p="2"><video muted="" loop="" playsinline="" preload="none" poster="https://cdn.dekry.cc/img/project-2.jpg" data-src="https://cdn.dekry.cc/video/project-2-preview.MP4" aria-hidden="true"></video><span class="pi" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></span></a>
+<a class="vt" href="https://cdn.dekry.cc/video/project-4-preview.mp4" data-p="4"><video muted="" loop="" playsinline="" preload="none" poster="https://cdn.dekry.cc/img/project-4.jpg" data-src="https://cdn.dekry.cc/video/project-4-preview.mp4" aria-hidden="true"></video><span class="pi" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></span></a>
+<a class="vt" href="https://cdn.dekry.cc/video/project-6-preview.mp4" data-p="6"><video muted="" loop="" playsinline="" preload="none" poster="https://cdn.dekry.cc/img/project-6.jpg" data-src="https://cdn.dekry.cc/video/project-6-preview.mp4" aria-hidden="true"></video><span class="pi" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></span></a>
+<a class="vt" href="https://cdn.dekry.cc/video/project-7-preview.mp4" data-p="7"><video muted="" loop="" playsinline="" preload="none" poster="https://cdn.dekry.cc/img/project-7.jpg" data-src="https://cdn.dekry.cc/video/project-7-preview.mp4" aria-hidden="true"></video><span class="pi" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></span></a>
+</div>
+
+<div class="mq" aria-hidden="true"><div class="mt"><span>Reels</span><span>YouTube</span><span>Shorts</span><span>Design</span><span>Branding</span><span>Ads</span><span>Reels</span><span>YouTube</span><span>Shorts</span><span>Design</span><span>Branding</span><span>Ads</span></div></div>
+
+<section id="work"><div class="w"><h2 data-t="wT">Роботи</h2>
+<p class="lead" data-t="wS">Відкрийте будь-яке відео, щоб подивитися його зі звуком.</p>
+<div class="wg" id="wg"></div>
+<h3 class="wh" data-t="wD">Дизайн</h3>
+<div class="dg">
+<button type="button" class="dzb"><img src="https://cdn.dekry.cc/img/design-1.jpg" alt="Design" loading="lazy" decoding="async"></button><button type="button" class="dzb"><img src="https://cdn.dekry.cc/img/design-2.jpg" alt="Design" loading="lazy" decoding="async"></button><button type="button" class="dzb"><img src="https://cdn.dekry.cc/img/design-3.jpg" alt="Design" loading="lazy" decoding="async"></button><button type="button" class="dzb"><img src="https://cdn.dekry.cc/img/design-4.jpg" alt="Design" loading="lazy" decoding="async"></button>
+</div>
+</div></section>
+
+<section id="services" style="padding-top:0"><div class="w"><h2 data-t="sT">Що ми робимо</h2>
+<div class="bn" id="bn"><a class="tl lg" href="https://t.me/des1n"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"></rect><path d="M10 9.5v5l4.5-2.5z"></path></svg></span><h3>Reels і відео</h3><p>Монтаж Reels, Shorts і YouTube: ритм, субтитри, звук, обкладинки.</p><span class="cs"><span>Reels</span><span>Shorts</span><span>TikTok</span><span>YouTube</span></span><span class="pr">від $10</span></a><a class="tl wd" href="https://t.me/des1n"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="4.5"></circle><rect x="11" y="11" width="9" height="9" rx="2"></rect></svg></span><h3>Дизайн</h3><p>Креативи для реклами, банери, обкладинки, фірмовий стиль.</p><span class="cs"><span>Instagram</span><span>YouTube</span><span>Ads</span><span>Brand</span></span><span class="pr">від $8</span></a><a class="tl wd" href="https://t.me/des1n"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg></span><h3>Ведення акаунта</h3><p>Контент-план, публікації, підписи, відповіді, звіт.</p><span class="cs"><span>Instagram</span><span>TikTok</span><span>Reels</span></span><span class="pr">від $300 / міс</span></a></div>
+</div></section>
+
+<section id="about" style="padding-top:0"><div class="w"><h2 data-t="aT">Про нас</h2>
+<div class="ab"><div><p class="ld" data-t="aL"></p><h3 class="wh" data-t="ak">Інструменти</h3><span class="cs"><span>DaVinci Resolve</span><span>Premiere Pro</span><span>After Effects</span><span>Photoshop</span><span>Illustrator</span><span>Figma</span></span></div>
+<ul class="vl" id="vl"></ul></div>
+<h3 class="wh" data-t="tT">Команда</h3>
+<ul class="tm" id="tm"></ul></div></section>
+
+<section style="padding-top:0"><div class="w"><div class="rh"><h2 data-t="rT">Відгуки</h2><div class="ar"><button type="button" data-d="-1" data-a="rP" aria-label="Попередній відгук">←</button><button type="button" data-d="1" data-a="rN" aria-label="Наступний відгук">→</button></div></div><div class="rw" id="rv"><figure class="rc"><div class="rs" role="img" aria-label="Оцінка 5 з 5"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg></div><q>Професіонал своєї справи, зробив Reels за 1 день. Розуміє тренди та алгоритми. Рекомендую!</q><div class="by"><span class="av">ВМ</span><p><b>Влад Міхєєв</b><br>Експерт з нерухомості</p></div></figure><figure class="rc"><div class="rs" role="img" aria-label="Оцінка 5 з 5"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg></div><q>Найкращий монтажер, з яким працював. Все зроблено швидко. Бомба!</q><div class="by"><span class="av">АП</span><p><b>Андрій Пивоваров</b><br>Серійний підприємець. Ментор. Стратег (100k+ підписників)</p></div></figure><figure class="rc"><div class="rs" role="img" aria-label="Оцінка 5 з 5"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg></div><q>Дякую за співпрацю! Буду звертатися, коли виникнуть нові завдання. Зберіг ваш контакт для майбутніх проєктів.</q><div class="by"><span class="av">ВП</span><p><b>Володимир Петренко</b><br>Маркетолог, e-com бренд</p></div></figure><figure class="rc"><div class="rs" role="img" aria-label="Оцінка 5 з 5"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg></div><q>Все чітко, брате. Дякую за виконану роботу, буду звертатися ще 🙌</q><div class="by"><span class="av">Z</span><p><b>zzhen</b><br>Клієнт</p></div></figure><figure class="rc"><div class="rs" role="img" aria-label="Оцінка 5 з 5"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"></path></svg></div><q>Привітик) З кейсами все гуд, дякую ☺️</q><div class="by"><span class="av">DB</span><p><b>Daniel B</b><br>Клієнт</p></div></figure></div></div></section>
+
+<section style="padding-top:0"><div class="w"><h2 data-t="pT">Як ми працюємо</h2><ul class="stp" id="ps"><li><h3>Бриф</h3><p>Обговорюємо бізнес, цілі та референси. Узгоджуємо формат, терміни й бюджет.</p></li><li><h3>Робота</h3><p>Робимо проєкт і показуємо проміжний варіант. Дві правки входять у вартість.</p></li><li><h3>Фінал</h3><p>Ви отримуєте готові файли та вихідники у потрібному форматі.</p></li></ul></div></section>
+
+<section id="pricing" style="padding-top:0"><div class="w"><h2 id="kTh" data-t="kT">Ціни</h2>
+<div class="tabs" role="tablist" aria-labelledby="kTh"><button role="tab" id="tb1" aria-selected="true" aria-controls="pn1" data-tab="1" data-t="k1T">Щомісячні пакети</button><button role="tab" id="tb2" aria-selected="false" aria-controls="pn2" data-tab="2" data-t="k2T">Разові замовлення</button></div>
+<div id="pn1" role="tabpanel" aria-labelledby="tb1"><div class="pks" id="pk"><article class="pcd"><h3>Старт</h3><p class="pt">Для знайомства та тесту</p><div class="pp"><small>від</small> $65 <small>/ міс</small></div><ul><li>4 Reels із монтажем і субтитрами</li><li>4 обкладинки</li><li>2 раунди правок на ролик</li></ul><a class="btn" href="https://t.me/des1n">Замовити</a></article><article class="pcd"><h3>Ріст</h3><p class="pt">Для регулярного контенту</p><div class="pp"><small>від</small> $180 <small>/ міс</small></div><ul><li>8–12 Reels на місяць</li><li>10 шаблонів сторіс</li><li>Єдиний візуальний стиль</li><li>Контент-план і публікація за графіком</li></ul><a class="btn" href="https://t.me/des1n">Замовити</a></article><article class="pcd"><h3>Під ключ</h3><p class="pt">Коли акаунт ведемо повністю</p><div class="pp"><small>від</small> $300 <small>/ міс</small></div><ul><li>Усе з пакета «Ріст»</li><li>Підписи, хештеги та відповіді</li><li>Щомісячний звіт із цифрами</li><li>Один дзвінок на місяць</li></ul><a class="btn" href="https://t.me/des1n">Замовити</a></article></div></div>
+<div id="pn2" role="tabpanel" aria-labelledby="tb2" hidden=""><div class="ocs" id="oo"></div></div>
+<p class="nt" data-t="kN">Остаточна ціна залежить від обсягу та термінів. Розрахунок після короткого брифу.</p></div></section>
+
+<section id="faq" style="padding-top:0"><div class="w"><h2 data-t="fT">Часті питання</h2><div id="fq"><details><summary>Скільки часу це займає?</summary><p>Окремий Reels можемо зробити вже за день після отримання матеріалів. Для пакетів узгоджуємо графік у брифі.</p></details><details><summary>Скільки правок входить у вартість?</summary><p>Дві правки на кожен ролик чи макет. Додаткові правки обговорюємо окремо.</p></details><details><summary>Кому належать файли?</summary><p>Вам. Ви отримуєте готові файли та вихідники.</p></details><details><summary>З чого почати?</summary><p>Напишіть у Telegram, коротко про бізнес і задачу. Після невеликого брифу назвемо точну вартість.</p></details></div></div></section>
+
+<section class="ct" id="contact"><div class="w"><div class="cbx">
+<div><h2 data-t="cT">Розкажіть про задачу</h2>
+<p class="csub" data-t="cS">Опишіть задачу в кількох реченнях. Відповімо протягом кількох годин, а після короткого брифу назвемо точну вартість.</p>
+<p class="chn" data-t="cH"></p>
+<div class="cta"><a class="btn p tg" href="https://t.me/des1n"><span data-t="cB">Написати в Telegram</span><svg class="tgi" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 4L3 11l6 2.5L11.5 20l3-4.5L19 19z"/><path d="M9 13.5L21 4"/></svg></a><a class="btn" href="mailto:dendekri17@gmail.com" data-t="cE">Написати на пошту</a></div></div>
+<ul class="cn">
+<li><a href="https://t.me/des1n"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 4L3 11l6 2.5L11.5 20l3-4.5L19 19z"/><path d="M9 13.5L21 4"/></svg></span><span><b>Telegram</b><small>@des1n</small></span><span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></li>
+<li><a href="mailto:dendekri17@gmail.com"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3.5 7l8.5 6 8.5-6"/></svg></span><span><b>Email</b><small>dendekri17@gmail.com</small></span><span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></li>
+<li><a href="https://www.behance.net/5db91123"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h5a2.5 2.5 0 010 5H3zM3 11h5.5a2.75 2.75 0 010 5.5H3zM3 6v10.5"/><path d="M14.5 13.5h7a3.5 3.5 0 10-1 2.5M15 7h5"/></svg></span><span><b>Behance</b><small data-t="cBh">Більше робіт</small></span><span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></li>
+</ul></div></div></section>
+</main>
+<footer><div class="w ft"><div><b class="logo">dekry</b><p data-t="ftd">Контент для бізнесу та експертів.</p></div>
+<nav><a href="#work" data-t="n2">Роботи</a><a href="#services" data-t="n1">Послуги</a><a href="#about" data-t="n5">Про нас</a><a href="#pricing" data-t="n3">Ціни</a><a href="#faq" data-t="n4">FAQ</a></nav>
+<nav><a href="https://t.me/des1n">Telegram</a><a href="https://www.behance.net/5db91123">Behance</a><a href="mailto:dendekri17@gmail.com">Email</a></nav>
+<a class="btn up" href="#top" data-t="up">Нагору</a></div>
+<div class="w cp">© <span id="yr">2026</span> Dekry</div></footer>
+<dialog id="lb"><button type="button" class="vx" data-a="cl" aria-label="Закрити">×</button><img alt=""></dialog>
+<dialog id="vd" class="vd" aria-labelledby="vdT"><div class="vb">
+<button type="button" class="vx" data-a="cl" aria-label="Закрити">×</button>
+<video controls playsinline preload="metadata"></video>
+<div class="vi"><span class="wk"></span><h3 id="vdT"></h3><p></p><span class="cs"></span><a class="btn p" href="https://t.me/des1n" data-t="mC">Хочу так само</a></div>
+</div></dialog>
+<a class="fl" href="#contact"><svg class="tgi" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 4L3 11l6 2.5L11.5 20l3-4.5L19 19z"/><path d="M9 13.5L21 4"/></svg><span data-t="c1">Написати в Telegram</span></a>
+
+<script>
+var D={
+uk:{u:'https://dekry.cc/',loc:'uk_UA',title:'Dekry | Контент для бізнесу й експертів що продає',desc:'Dekry: Reels, дизайн, сайти, Telegram-боти та ведення акаунта для бізнесу й експертів.',
+n1:'Послуги',n2:'Роботи',n3:'Ціни',n4:'FAQ',nav:'Написати',
+h1:'Контент для бізнесу й експертів що продає',
+sub:'Reels, креативи, брендинг і ведення акаунта. Також сайти та Telegram-боти.',
+c1:'Написати в Telegram',c2:'Дивитися роботи',cH:'Що написати: ніша, що потрібно зробити, терміни й орієнтовний бюджет.',
+st:[['500+','відео та креативів'],['100+','клієнтів'],['3','роки досвіду']],
+chip:'Відповідаємо протягом кількох годин',ftd:'Контент для бізнесу та експертів.',up:'Нагору',skip:'До змісту',sx:[['Сайти','Лендинги та сайти-візитки під ключ: дизайн, верстка, запуск.','від $50'],['Telegram-боти','Боти для заявок, запису клієнтів і розсилок.','від $40']],sT:'Що ми робимо',ask:'Замовити',
+sv:[['Reels і відео','Монтаж Reels, Shorts і YouTube: ритм, субтитри, звук, обкладинки.','від $10'],['Дизайн','Креативи для реклами, банери, обкладинки, фірмовий стиль.','від $8'],['Ведення акаунта','Контент-план, публікації, підписи, відповіді, звіт.','від $300 / міс']],
+rT:'Відгуки',
+rv:[['Професіонал своєї справи, зробив Reels за 1 день. Розуміє тренди та алгоритми. Рекомендую!','Влад Міхєєв','Експерт з нерухомості'],['Найкращий монтажер, з яким працював. Все зроблено швидко. Бомба!','Андрій Пивоваров','Серійний підприємець. Ментор. Стратег (100k+ підписників)'],['Дякую за співпрацю! Буду звертатися, коли виникнуть нові завдання. Зберіг ваш контакт для майбутніх проєктів.','Володимир Петренко','Маркетолог, e-com бренд'],['Все чітко, брате. Дякую за виконану роботу, буду звертатися ще 🙌','zzhen','Клієнт'],['Привітик) З кейсами все гуд, дякую ☺️','Daniel B','Клієнт']],
+pT:'Як ми працюємо',
+ps:[['Бриф','Обговорюємо бізнес, цілі та референси. Узгоджуємо формат, терміни й бюджет.'],['Робота','Робимо проєкт і показуємо проміжний варіант. Дві правки входять у вартість.'],['Фінал','Ви отримуєте готові файли та вихідники у потрібному форматі.']],
+kT:'Ціни',k1T:'Щомісячні пакети',k2T:'Разові замовлення',
+pk:[['Старт','Для знайомства та тесту','від','$65','/ міс',['4 Reels із монтажем і субтитрами','4 обкладинки','2 раунди правок на ролик']],['Ріст','Для регулярного контенту','від','$180','/ міс',['8–12 Reels на місяць','10 шаблонів сторіс','Єдиний візуальний стиль','Контент-план і публікація за графіком']],['Під ключ','Коли акаунт ведемо повністю','від','$300','/ міс',['Усе з пакета «Ріст»','Підписи, хештеги та відповіді','Щомісячний звіт із цифрами','Один дзвінок на місяць']]],
+oo:[['Reels / Shorts / TikTok','Монтаж під трендовий звук, субтитри, динамічні переходи. Формат 9:16.','від $10'],['YouTube-відео','Повний цикл: монтаж, звук, колір, графіка та обкладинка.','від $30'],['Дизайн: бренд, реклама','Рекламні креативи, банери, аватарки й обкладинки.','від $8'],['Логотип і фірмовий стиль','Логотип, палітра, шрифти та короткий гайдлайн.','від $30'],['Сайт-лендинг','Дизайн, верстка й запуск односторінкового сайту.','від $50'],['Telegram-бот','Бот для заявок, запису клієнтів або розсилок.','від $40']],pop:'Популярний',
+cS:'Опишіть задачу в кількох реченнях. Відповімо протягом кількох годин, а після короткого брифу назвемо точну вартість.',cE:'Написати на пошту',cBh:'Більше робіт',
+kN:'Остаточна ціна залежить від обсягу та термінів. Розрахунок після короткого брифу.',
+fT:'Часті питання',
+fq:[['Скільки часу це займає?','Окремий Reels можемо зробити вже за день після отримання матеріалів. Для пакетів узгоджуємо графік у брифі.'],['Скільки правок входить у вартість?','Дві правки на кожен ролик чи макет. Додаткові правки обговорюємо окремо.'],['Кому належать файли?','Вам. Ви отримуєте готові файли та вихідники.'],['З чого почати?','Напишіть у Telegram, коротко про бізнес і задачу. Після невеликого брифу назвемо точну вартість.']],
+cT:'Розкажіть про задачу',cB:'Написати в Telegram',
+n5:'Про нас',mn:'Меню',lg:'Мова',rs:'Оцінка 5 з 5',cl:'Закрити',rP:'Попередній відгук',rN:'Наступний відгук',
+wT:'Роботи',wS:'Відкрийте будь-яке відео, щоб подивитися його зі звуком.',wD:'Дизайн',mC:'Хочу так само',
+wk:{1:['Динамічний Reels для блогера','Швидкий монтаж під трендовий аудіо, звуковий дизайн, динамічні переходи.',''],2:['Серія Reels для особистого бренду','Пакет із 12 роликів. Трендові звуки, субтитри. Ріст фоловерів +30%.','+30% фоловерів'],3:['YouTube-відео','Повний цикл: монтаж, колір-корекція, графіка, саунд-дизайн. Утримання аудиторії 65%.','65% утримання'],4:['Креативний Reels для реклами','Яскраві переходи, текст на екрані, утримання уваги з перших секунд.',''],5:['Аналітика у форматі Reels','Складні дані перетворені на доступну коротку форму з кінетичною типографікою.',''],6:['Reels для експерта','Говорюча голова + динамічні підкадри, що ілюструють текст.',''],7:['Reels-розпаковка продукту','Яскраві переходи, текст на екрані, ритмічний монтаж під музику.',''],8:['YouTube: топ способів заробітку','Динамічне інтро та B-Roll нарізка. Повний цикл: монтаж, моушн-дизайн (2D/3D), кінетична типографіка й акцентний саунд-дизайн.','']},
+dz:['Банер для YouTube-каналу','Креатив для Facebook/Instagram Ads','Обкладинка для подкасту','Айдентика для особистого бренду'],
+aT:'Про нас',ak:'Інструменти',tT:'Команда',
+aL:'Dekry — команда, яка робить контент для бізнесу під ключ: від ідеї та сценарію до монтажу, дизайну й публікації. Ми працюємо не на «красиво», а на те, щоб ролик дивилися до кінця, а клієнти писали вам у директ.',
+av:[['Швидко','Перший Reels — уже за день після отримання матеріалів.'],['Під ключ','Монтаж, дизайн і ведення акаунта в одних руках. Не треба шукати кількох підрядників.'],['Прозоро','Ціну фіксуємо після брифу. Дві правки включено, вихідники — ваші.'],['На результат','Стежимо за трендами та утриманням. Монтуємо під перегляди й заявки, а не під лайки.']],
+tm:[['Відеомонтаж','Reels, Shorts і YouTube: ритм, субтитри, звук, колір.'],['Моушн-дизайн','Анімація, кінетична типографіка, 2D/3D-графіка.'],['Графічний дизайн','Креативи, обкладинки, банери, фірмовий стиль.'],['SMM','Контент-план, публікації, підписи, щомісячний звіт.']]},
+ru:{u:'https://dekry.cc/',loc:'ru_RU',title:'Dekry | Контент для бизнеса и экспертов который продаёт',desc:'Dekry: Reels, дизайн, сайты, Telegram-боты и ведение аккаунта для бизнеса и экспертов.',
+n1:'Услуги',n2:'Работы',n3:'Цены',n4:'FAQ',nav:'Написать',
+h1:'Контент для бизнеса и экспертов который продаёт',
+sub:'Reels, креативы, брендинг и ведение аккаунта. Также сайты и Telegram-боты.',
+c1:'Написать в Telegram',c2:'Смотреть работы',cH:'Что написать: ниша, что нужно сделать, сроки и примерный бюджет.',
+st:[['500+','видео и креативов'],['100+','клиентов'],['3','года опыта']],
+chip:'Отвечаем в течение нескольких часов',ftd:'Контент для бизнеса и экспертов.',up:'Наверх',skip:'К содержимому',sx:[['Сайты','Лендинги и сайты-визитки под ключ: дизайн, вёрстка, запуск.','от $50'],['Telegram-боты','Боты для заявок, записи клиентов и рассылок.','от $40']],sT:'Что мы делаем',ask:'Заказать',
+sv:[['Reels и видео','Монтаж Reels, Shorts и YouTube: ритм, субтитры, звук, обложки.','от $10'],['Дизайн','Креативы для рекламы, баннеры, обложки, фирменный стиль.','от $8'],['Ведение аккаунта','Контент-план, публикации, подписи, ответы, отчёт.','от $300 / мес']],
+rT:'Отзывы',
+rv:[['Профессионал своего дела, сделал Reels за 1 день. Понимает тренды и алгоритмы. Рекомендую!','Влад Михеев','Эксперт по недвижимости'],['Лучший монтажёр, с которым работал. Всё сделано быстро. Бомба!','Андрей Пивоваров','Серийный предприниматель. Ментор. Стратег (100k+ подписчиков)'],['Спасибо за сотрудничество! Буду обращаться, когда появятся новые задачи. Сохранил ваш контакт для будущих проектов.','Владимир Петренко','Маркетолог, e-com бренд'],['Все четко братан. Спасибо тебе за проделанную работу, буду обращаться к тебе 🙌','zzhen','Клиент'],['Приветик) По кейсам все гуд, спасибо ☺️','Daniel B','Клиент']],
+pT:'Как мы работаем',
+ps:[['Бриф','Обсуждаем бизнес, цели и референсы. Согласуем формат, сроки и бюджет.'],['Работа','Делаем проект и показываем промежуточный вариант. Две правки входят в стоимость.'],['Финал','Вы получаете готовые файлы и исходники в нужном формате.']],
+kT:'Цены',k1T:'Ежемесячные пакеты',k2T:'Разовые заказы',
+pk:[['Старт','Для знакомства и теста','от','$65','/ мес',['4 Reels с монтажом и субтитрами','4 обложки','2 раунда правок на ролик']],['Рост','Для регулярного контента','от','$180','/ мес',['8–12 Reels в месяц','10 шаблонов сторис','Единый визуальный стиль','Контент-план и публикация по графику']],['Под ключ','Когда ведём аккаунт полностью','от','$300','/ мес',['Всё из пакета «Рост»','Подписи, хештеги и ответы','Ежемесячный отчёт с цифрами','Один созвон в месяц']]],
+oo:[['Reels / Shorts / TikTok','Монтаж под трендовый звук, субтитры, динамичные переходы. Формат 9:16.','от $10'],['YouTube-видео','Полный цикл: монтаж, звук, цвет, графика и обложка.','от $30'],['Дизайн: бренд, реклама','Рекламные креативы, баннеры, аватарки и обложки.','от $8'],['Логотип и фирменный стиль','Логотип, палитра, шрифты и краткий гайдлайн.','от $30'],['Сайт-лендинг','Дизайн, вёрстка и запуск одностраничного сайта.','от $50'],['Telegram-бот','Бот для заявок, записи клиентов или рассылок.','от $40']],pop:'Популярный',
+cS:'Опишите задачу в паре предложений. Ответим в течение нескольких часов, а после короткого брифа назовём точную стоимость.',cE:'Написать на почту',cBh:'Больше работ',
+kN:'Окончательная цена зависит от объёма и сроков. Расчёт после короткого брифа.',
+fT:'Частые вопросы',
+fq:[['Сколько времени это занимает?','Отдельный Reels можем сделать уже через день после получения материалов. Для пакетов график согласуем в брифе.'],['Сколько правок входит в стоимость?','Две правки на каждый ролик или макет. Дополнительные правки обсуждаем отдельно.'],['Кому принадлежат файлы?','Вам. Вы получаете готовые файлы и исходники.'],['С чего начать?','Напишите в Telegram: коротко о бизнесе и задаче. После небольшого брифа назовём точную стоимость.']],
+cT:'Расскажите о задаче',cB:'Написать в Telegram',
+n5:'О нас',mn:'Меню',lg:'Язык',rs:'Оценка 5 из 5',cl:'Закрыть',rP:'Предыдущий отзыв',rN:'Следующий отзыв',
+wT:'Работы',wS:'Откройте любое видео, чтобы посмотреть его со звуком.',wD:'Дизайн',mC:'Хочу так же',
+wk:{1:['Динамичный Reels для блогера','Быстрый монтаж под трендовое аудио, звуковой дизайн, динамичные переходы.',''],2:['Серия Reels для личного бренда','Пакет из 12 роликов. Трендовые звуки, субтитры. Рост подписчиков +30%.','+30% подписчиков'],3:['YouTube-видео','Полный цикл: монтаж, цветокоррекция, графика, саунд-дизайн. Удержание аудитории 65%.','65% удержания'],4:['Креативный Reels для рекламы','Яркие переходы, текст на экране, удержание внимания с первых секунд.',''],5:['Аналитика в формате Reels','Сложные данные превращены в доступный короткий формат с кинетической типографикой.',''],6:['Reels для эксперта','Говорящая голова + динамичные подкадры, иллюстрирующие текст.',''],7:['Reels-распаковка продукта','Яркие переходы, текст на экране, ритмичный монтаж под музыку.',''],8:['YouTube: топ способов заработка','Динамичное интро и B-Roll нарезка. Полный цикл: монтаж, моушн-дизайн (2D/3D), кинетическая типографика и акцентный саунд-дизайн.','']},
+dz:['Баннер для YouTube-канала','Рекламный креатив для Facebook/Instagram','Обложка для подкаста','Айдентика для личного бренда'],
+aT:'О нас',ak:'Инструменты',tT:'Команда',
+aL:'Dekry — команда, которая делает контент для бизнеса под ключ: от идеи и сценария до монтажа, дизайна и публикации. Мы работаем не на «красиво», а на то, чтобы ролик досматривали до конца, а клиенты писали вам в директ.',
+av:[['Быстро','Первый Reels — уже через день после получения материалов.'],['Под ключ','Монтаж, дизайн и ведение аккаунта в одних руках. Не нужно искать несколько подрядчиков.'],['Прозрачно','Цену фиксируем после брифа. Две правки включены, исходники — ваши.'],['На результат','Следим за трендами и удержанием. Монтируем под просмотры и заявки, а не под лайки.']],
+tm:[['Видеомонтаж','Reels, Shorts и YouTube: ритм, субтитры, звук, цвет.'],['Моушн-дизайн','Анимация, кинетическая типографика, 2D/3D-графика.'],['Графический дизайн','Креативы, обложки, баннеры, фирменный стиль.'],['SMM','Контент-план, публикации, подписи, ежемесячный отчёт.']]},
+en:{u:'https://dekry.cc/',loc:'en_US',title:'Dekry | Content for businesses and experts that sells',desc:'Dekry: Reels, design, websites, Telegram bots and account management for businesses and experts.',
+n1:'Services',n2:'Work',n3:'Pricing',n4:'FAQ',nav:'Contact',
+h1:'Content for businesses and experts that sells',
+sub:'Reels, creatives, branding and account management. Also websites and Telegram bots.',
+c1:'Message on Telegram',c2:'See our work',cH:'What to send: your niche, what you need, deadline and rough budget.',
+st:[['500+','videos and creatives'],['100+','clients'],['3','years of experience']],
+chip:'We reply within a few hours',ftd:'Content for businesses and experts.',up:'Back to top',skip:'Skip to content',sx:[['Websites','Landing pages and business sites end to end: design, build, launch.','from $50'],['Telegram bots','Bots for leads, bookings and broadcasts.','from $40']],sT:'What we do',ask:'Order',
+sv:[['Reels and video','Editing for Reels, Shorts and YouTube: pacing, subtitles, sound, covers.','from $10'],['Design','Ad creatives, banners, covers, brand identity.','from $8'],['Account management','Content plan, posting, captions, replies, report.','from $300 / mo']],
+rT:'Reviews',
+rv:[['A true professional: delivered the Reels in just 1 day. Understands trends and algorithms. Highly recommend!','Vlad Mikheiev','Real estate expert'],['Best video editor I’ve worked with. Everything done fast. Amazing!','Andrii Pyvovarov','Serial entrepreneur. Mentor. Strategist (100k+ followers)'],['Thanks for the collaboration! I’ll reach out again when new tasks come up. Saved your contact for future projects.','Volodymyr Petrenko','Marketer, e-commerce brand'],['Everything’s on point, bro. Thanks for the work, I’ll be back 🙌','zzhen','Client'],['Hey there) The case files are all good, thanks ☺️','Daniel B','Client']],
+pT:'How we work',
+ps:[['Brief','We talk through your business, goals and references, then agree on format, timing and budget.'],['Production','We build the project and share a draft. Two rounds of revisions are included.'],['Delivery','You get final files and source files in the format you need.']],
+kT:'Pricing',k1T:'Monthly packages',k2T:'One-off orders',
+pk:[['Start','For a first project or a test','from','$65','/ mo',['4 Reels with editing and subtitles','4 covers','2 revision rounds per video']],['Growth','For regular content','from','$180','/ mo',['8–12 Reels per month','10 story templates','A consistent visual style','Content plan and scheduled posting']],['Full service','When we run the account end to end','from','$300','/ mo',['Everything in Growth','Captions, hashtags and replies','Monthly report with numbers','One call per month']]],
+oo:[['Reels / Shorts / TikTok','Edited to trending audio with subtitles and dynamic transitions. 9:16 format.','from $10'],['YouTube video','Full cycle: editing, sound, color, graphics and thumbnail.','from $30'],['Design: brand, ads','Ad creatives, banners, avatars and covers.','from $8'],['Logo and brand identity','Logo, palette, fonts and a short style guide.','from $30'],['Landing page','Design, build and launch of a one-page website.','from $50'],['Telegram bot','A bot for leads, bookings or broadcasts.','from $40']],pop:'Popular',
+cS:'Describe your task in a couple of sentences. We reply within a few hours and give you an exact price after a short brief.',cE:'Send an email',cBh:'More work',
+kN:'The final price depends on scope and deadlines. We quote after a short brief.',
+fT:'FAQ',
+fq:[['How long does it take?','A single Reels can be ready a day after we get your footage. For packages, we agree a schedule in the brief.'],['How many revisions are included?','Two per video or design. Extra revisions are discussed separately.'],['Who owns the files?','You do. You get the final files and the source files.'],['Where do I start?','Message us on Telegram with a few lines about your business and task. After a short brief we’ll give you an exact price.']],
+cT:'Tell us about your project',cB:'Message on Telegram',
+n5:'About',mn:'Menu',lg:'Language',rs:'Rated 5 out of 5',cl:'Close',rP:'Previous review',rN:'Next review',
+wT:'Work',wS:'Open any video to watch it with sound.',wD:'Design',mC:'I want one like this',
+wk:{1:['Dynamic Reels for a blogger','Fast-paced edit synced to trending audio, sound design, dynamic transitions.',''],2:['Reels series for a personal brand','A package of 12 videos. Trending sounds, subtitles. Follower growth +30%.','+30% followers'],3:['YouTube video','Full cycle: editing, color grading, graphics, sound design. 65% audience retention.','65% retention'],4:['Creative Reels for advertising','Bold transitions, on-screen text, grabbing attention from the first second.',''],5:['Analytics in Reels format','Complex data turned into an accessible short-form video with kinetic typography.',''],6:['Reels for an expert','Talking-head footage with dynamic B-roll illustrating the narration.',''],7:['Product unboxing Reels','Bold transitions, on-screen text, a rhythmic edit synced to music.',''],8:['YouTube: top ways to earn money','Dynamic intro and B-roll cuts. Full cycle: editing, motion design (2D/3D), kinetic typography and accent sound design.','']},
+dz:['YouTube channel banner','Ad creative for Facebook/Instagram','Podcast cover art','Identity for a personal brand'],
+aT:'About us',ak:'Tools',tT:'Team',
+aL:'Dekry is a team that makes content for businesses end to end: from idea and script to editing, design and posting. We don’t aim for “pretty”. We aim for videos people watch to the end and clients who message you.',
+av:[['Fast','Your first Reels can be ready a day after we get the footage.'],['End to end','Editing, design and account management in one place. No need to juggle several contractors.'],['Transparent','We fix the price after the brief. Two revisions included, and the source files are yours.'],['Results-driven','We follow trends and retention, and edit for views and leads, not likes.']],
+tm:[['Video editing','Reels, Shorts and YouTube: pacing, subtitles, sound, color.'],['Motion design','Animation, kinetic typography, 2D/3D graphics.'],['Graphic design','Ad creatives, covers, banners, brand identity.'],['SMM','Content plan, posting, captions, monthly report.']]}
+};
+var $=function(s){return document.querySelector(s)};
+var CDN='https://cdn.dekry.cc/',L='uk',q=null;
+// Order matters: the two YouTube cards span 3 of 6 columns, so 3/1/2/4 and 5/6/7/8 each fill one desktop row.
+var P=[3,1,2,4,5,6,7,8],YT=[3,8];
+var PG={1:['DaVinci Resolve','After Effects','Sound Design'],2:['Trending Audio','Fast Turnaround'],3:['Premiere Pro','Color Grading','Motion Graphics'],4:['DaVinci Resolve','Ads'],5:['After Effects','Kinetic Typography'],6:['Premiere Pro','B-roll'],7:['DaVinci Resolve','Product'],8:['DaVinci Resolve','Motion Graphics','Sound Design']};
+function vu(n){return CDN+'video/project-'+n+'-preview.'+(n<3?'MP4':'mp4')}
+var PL='<span class="pi" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg></span>';
+var GO='<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>';
+// "від $300 / міс" -> small prefix, large amount, small suffix
+function TF(s){var m=s.match(/^(\S+)\s+(\$[\d,]+)\s*(.*)$/);return'<span class="tf"><span class="pr">'+(m?'<small>'+m[1]+'</small> '+m[2]+(m[3]?' <small>'+m[3]+'</small>':''):s)+'</span>'+GO+'</span>'}
+var SI=['<rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/>','<path d="M21 4L3 11l6 2.5L11.5 20l3-4.5L19 19z"/><path d="M9 13.5L21 4"/>'];
+var TI=['<circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4L8.1 15.9M14.5 14.5L20 20M8.1 8.1L12 12"/>','<path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/>','<path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.6 7.6"/><circle cx="11" cy="11" r="2"/>','<path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/>'];
+function R(l){
+ var d=D[l]||D.uk;
+ document.documentElement.lang=l;document.title=d.title;
+ $('meta[name=description]').setAttribute('content',d.desc);
+ $('meta[name="twitter:title"]').setAttribute('content',d.title);
+ $('link[rel=canonical]').setAttribute('href',d.u);
+ [['og:title',d.title],['og:description',d.desc],['og:url',d.u],['og:locale',d.loc]].forEach(function(p){var m=document.querySelector('meta[property="'+p[0]+'"]');if(m)m.setAttribute('content',p[1])});
+ document.querySelectorAll('[data-t]').forEach(function(e){if(d[e.dataset.t]!==undefined)e.textContent=d[e.dataset.t]});
+ var h=$('h1');h.setAttribute('aria-label',d.h1);var hw=d.h1.split(' ');h.innerHTML=hw.map(function(w,i){return'<span class="w2" aria-hidden="true"><span'+(i>=hw.length-2?' class="gr"':'')+' style="animation-delay:'+(80+i*120)+'ms">'+w+'</span></span>'}).join(' ');
+ $('#st').innerHTML=d.st.map(function(x){return'<div><b data-n="'+parseInt(x[0])+'" data-s="'+x[0].replace(/[0-9]/g,'')+'">'+x[0]+'</b><span>'+x[1]+'</span></div>'}).join('');
+ var cl=['lg','wd','wd'];
+ var ic=['<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9.5v5l4.5-2.5z"/></svg>','<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="4.5"/><rect x="11" y="11" width="9" height="9" rx="2"/></svg>','<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>'];
+ var ch=[['Reels','Shorts','TikTok','YouTube'],['Instagram','YouTube','Ads','Brand'],['Instagram','TikTok','Reels']];
+ $('#bn').innerHTML=d.sv.map(function(x,i){return'<a class="tl '+cl[i]+'" href="https://t.me/des1n"><span class="ic">'+ic[i]+'</span><h3>'+x[0]+'</h3><p>'+x[1]+'</p><span class="cs">'+ch[i].map(function(c){return'<span>'+c+'</span>'}).join('')+'</span>'+TF(x[2])+'</a>'}).join('')
+  +d.sx.map(function(x,i){return'<a class="tl sm" href="https://t.me/des1n"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+SI[i]+'</svg></span><div><h3>'+x[0]+'</h3><p>'+x[1]+'</p></div>'+TF(x[2])+'</a>'}).join('');
+ var star='<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z"/></svg>';
+ $('#rv').innerHTML=d.rv.map(function(x){var ini=x[1].replace(/[^A-Za-zА-Яа-яІіЇїЄєҐґ ]/g,'').split(' ').filter(Boolean).slice(0,2).map(function(w){return w[0].toUpperCase()}).join('');return'<figure class="rc"><div class="rs" role="img" aria-label="'+d.rs+'">'+star+star+star+star+star+'</div><q>'+x[0]+'</q><div class="by"><span class="av">'+ini+'</span><p><b>'+x[1]+'</b><br>'+x[2]+'</p></div></figure>'}).join('');
+ $('#ps').innerHTML=d.ps.map(function(x){return'<li><h3>'+x[0]+'</h3><p>'+x[1]+'</p></li>'}).join('');
+ $('#pk').innerHTML=d.pk.map(function(x,i){var h=i===1;return'<article class="pcd'+(h?' hot':'')+'"><div class="ph"><h3>'+x[0]+'</h3>'+(h?'<span class="bdg">'+d.pop+'</span>':'')+'</div><p class="pt">'+x[1]+'</p><div class="pp"><small>'+x[2]+'</small> '+x[3]+' <small>'+x[4]+'</small></div><ul>'+x[5].map(function(f){return'<li>'+f+'</li>'}).join('')+'</ul><a class="btn'+(h?' p':'')+'" href="https://t.me/des1n">'+d.ask+'</a></article>'}).join('');
+ $('#oo').innerHTML=d.oo.map(function(x){return'<a class="ocd" href="https://t.me/des1n"><h3>'+x[0]+'</h3><p>'+x[1]+'</p>'+TF(x[2])+'</a>'}).join('');
+ $('#fq').innerHTML=d.fq.map(function(x){return'<details><summary>'+x[0]+'</summary><p>'+x[1]+'</p></details>'}).join('');
+ L=D[l]?l:'uk';
+ $('#wg').innerHTML=P.map(function(n){var w=d.wk[n],yt=YT.indexOf(n)>-1;return'<a class="wc'+(yt?' yt':'')+'" href="'+vu(n)+'" data-p="'+n+'"><img src="'+CDN+'img/project-'+n+'.jpg" alt="" loading="lazy" decoding="async">'+PL+'<span class="wo"><span class="wk">'+(yt?'YouTube':'Reels')+'</span><h3>'+w[0]+'</h3>'+(w[2]?'<span class="wm">'+w[2]+'</span>':'')+'</span></a>'}).join('');
+ document.querySelectorAll('.vt').forEach(function(a){a.setAttribute('aria-label',d.wk[a.dataset.p][0])});
+ document.querySelectorAll('.dg img').forEach(function(im,i){im.alt=d.dz[i]});
+ $('#vl').innerHTML=d.av.map(function(x){return'<li><h3>'+x[0]+'</h3><p>'+x[1]+'</p></li>'}).join('');
+ $('#tm').innerHTML=d.tm.map(function(x,i){return'<li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+TI[i]+'</svg></span><h3>'+x[0]+'</h3><p>'+x[1]+'</p></li>'}).join('');
+ document.querySelectorAll('[data-a]').forEach(function(e){e.setAttribute('aria-label',d[e.dataset.a])});
+ document.querySelectorAll('.lang button').forEach(function(b){if(b.dataset.l===l)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')});
+ if(window.fx)fx();
+}
+document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){R(b.dataset.l);try{localStorage.setItem('dk_lang',b.dataset.l)}catch(e){}if(q)try{history.replaceState(null,'','?lang='+b.dataset.l+location.hash)}catch(e){}})});
+var s=null;try{s=localStorage.getItem('dk_lang')}catch(e){}
+// ?lang=en|ru|uk (or ua) lets outreach links open in the recipient's language; it wins over the saved choice.
+try{q=new URLSearchParams(location.search).get('lang')}catch(e){}
+if(q==='ua')q='uk';
+var n=(navigator.language||'uk').slice(0,2);
+R(D[q]?q:D[s]?s:(D[n]?n:'uk'));
+var rm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+// Первые 4 превью стартуют сразу после загрузки (без звука, по кругу) и ставятся на паузу вне экрана.
+// prefers-reduced-motion и Save-Data оставляют постеры; тап/клик открывает полное видео в окне.
+var sd=navigator.connection&&navigator.connection.saveData;
+if(!rm&&!sd){
+ var hv=[].slice.call(document.querySelectorAll('.vs video[data-src]'),0,4),seen=new WeakMap();
+ function pv(v){var p=v.play();if(p&&p.catch)p.catch(function(){})}
+ hv.forEach(function(v){v.muted=true;v.preload='auto';v.src=v.dataset.src;v.closest('.vt').classList.add('pl');pv(v)});
+ if('IntersectionObserver' in window){
+  var vo=new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target;seen.set(v,e.isIntersecting);if(e.isIntersecting){if(!document.querySelector('dialog[open]'))pv(v)}else v.pause()})});
+  hv.forEach(function(v){vo.observe(v)});
+  document.addEventListener('visibilitychange',function(){hv.forEach(function(v){if(document.hidden)v.pause();else if(seen.get(v)!==false&&!document.querySelector('dialog[open]'))pv(v)})});
+ }
+}
+
+window.fx=function(){
+ var rm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+ if(rm||!('IntersectionObserver' in window))return;
+ if(!window._r){
+  window._r=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');window._r.unobserve(e.target)}})},{threshold:.12,rootMargin:'0px 0px -5% 0px'});
+  window._c=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;window._c.unobserve(e.target);var b=e.target,n=+b.dataset.n,t0=performance.now();(function f(t){var k=Math.min(1,(t-t0)/1300);b.textContent=Math.round(n*(1-Math.pow(1-k,3)))+b.dataset.s;if(k<1)requestAnimationFrame(f)})(t0)})},{threshold:.6});
+ }
+ document.querySelectorAll('h2,.tl,.dg img,.rc,.stp li,.pcd,details,.ocd,.wc,.vl li,.tm li,.cbx').forEach(function(el,i){if(el.classList.contains('rvl'))return;el.classList.add('rvl');el.style.animationDelay=(i%4*80)+'ms';window._r.observe(el)});
+ document.querySelectorAll('[data-n]').forEach(function(b){b.textContent='0'+b.dataset.s;window._c.observe(b)});
+};
+fx();
+document.addEventListener('pointermove',function(e){
+ var c=document.querySelector('.cur');if(c){c.style.setProperty('--cx',e.clientX+'px');c.style.setProperty('--cy',e.clientY+'px')}
+ var t=e.target.closest&&e.target.closest('.tl');if(t){var r=t.getBoundingClientRect();t.style.setProperty('--mx',(e.clientX-r.left)+'px');t.style.setProperty('--my',(e.clientY-r.top)+'px')}
+},{passive:true});
+
+(function(){
+ var y=document.getElementById('yr');if(y)y.textContent=new Date().getFullYear();
+ var pg=document.querySelector('.pg'),tk=false;
+ function sp(){tk=false;if(scrollY<300)document.querySelectorAll('.nv a[aria-current]').forEach(function(a){a.removeAttribute('aria-current')});var h=document.documentElement.scrollHeight-innerHeight;pg.style.transform='scaleX('+(h>0?Math.min(1,scrollY/h):0)+')'}
+ addEventListener('scroll',function(){if(!tk){tk=true;requestAnimationFrame(sp)}},{passive:true});sp();
+ if('IntersectionObserver' in window){
+  var links={};document.querySelectorAll('.nv a').forEach(function(a){links[a.getAttribute('href').slice(1)]=a});
+  var so=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){Object.keys(links).forEach(function(k){links[k].removeAttribute('aria-current')});var a=links[e.target.id];if(a)a.setAttribute('aria-current','true')}})},{rootMargin:'-40% 0px -55% 0px'});
+  Object.keys(links).forEach(function(k){var el=document.getElementById(k);if(el)so.observe(el)});
+ }
+ var lb=document.getElementById('lb');
+ if(lb&&lb.showModal){
+  document.querySelector('.dg').addEventListener('click',function(e){var bt=e.target.closest('.dzb');if(!bt)return;var im=bt.querySelector('img'),li=lb.querySelector('img');li.src=im.src;li.alt=im.alt;lb.setAttribute('aria-label',im.alt);lb.showModal()});
+  lb.addEventListener('click',function(){lb.close()});
+ }
+})();
+
+
+var TB=[].slice.call(document.querySelectorAll('.tabs button'));
+TB.forEach(function(b,i){b.tabIndex=i?-1:0;b.addEventListener('keydown',function(e){var k=e.key==='ArrowRight'?1:e.key==='ArrowLeft'?-1:0;if(!k)return;e.preventDefault();var t=TB[(i+k+TB.length)%TB.length];t.focus();t.click()});b.addEventListener('click',function(){TB.forEach(function(x){x.setAttribute('aria-selected',x===b);x.tabIndex=x===b?0:-1});document.getElementById('pn1').hidden=b.dataset.tab!=='1';document.getElementById('pn2').hidden=b.dataset.tab!=='2'})});
+/* Вкладки: подложка переезжает к выбранной (позиция пересчитывается при смене языка и ширины). */
+(function(){var tb=document.querySelector('.tabs');if(!tb)return;
+ function pos(){var b=tb.querySelector('[aria-selected=true]');if(!b)return;tb.style.setProperty('--tw',b.offsetWidth+'px');tb.style.setProperty('--tl',b.offsetLeft+'px')}
+ tb.classList.add('js');pos();requestAnimationFrame(function(){tb.classList.add('rd')});
+ tb.addEventListener('click',pos);addEventListener('resize',pos,{passive:true});
+ document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){setTimeout(pos,0)})});
+ if(document.fonts&&document.fonts.ready)document.fonts.ready.then(pos);})();
+/* FAQ: ответ раскрывается и сворачивается по высоте. При reduced-motion — как раньше, мгновенно. */
+(function(){var fq=document.getElementById('fq');if(!fq||!fq.animate||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+ var O={duration:450,easing:'cubic-bezier(.2,.7,.2,1)'};
+ fq.addEventListener('click',function(e){var s=e.target.closest('summary');if(!s)return;var d=s.parentNode;if(d.an)return;e.preventDefault();
+  var h0=d.offsetHeight,cs=getComputedStyle(d),sh=s.offsetHeight+parseFloat(cs.paddingTop)+parseFloat(cs.paddingBottom)+parseFloat(cs.borderTopWidth)+parseFloat(cs.borderBottomWidth);
+  d.style.overflow='hidden';
+  if(d.open){d.classList.add('cl');d.an=d.animate({height:[h0+'px',sh+'px']},O);d.an.onfinish=function(){d.open=false;d.classList.remove('cl');end(d)}}
+  else{d.open=true;var h1=d.offsetHeight;var p=d.querySelector('p');d.an=d.animate({height:[h0+'px',h1+'px']},O);if(p)p.animate({opacity:[0,1],transform:['translateY(-6px)','none']},O);d.an.onfinish=function(){end(d)}}
+ });
+ function end(d){d.an=null;d.style.overflow=''}})();
+
+(function(){
+ var mb=$('.mb'),mm=$('#mm');
+ function mt(o){mb.setAttribute('aria-expanded',o);mm.hidden=!o}
+ mb.addEventListener('click',function(){mt(mm.hidden)});
+ mm.addEventListener('click',function(e){if(e.target.closest('a'))mt(false)});
+ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!mm.hidden){mt(false);mb.focus()}});
+ addEventListener('resize',function(){if(innerWidth>900&&!mm.hidden)mt(false)});
+
+ document.querySelectorAll('.ar button').forEach(function(b){b.addEventListener('click',function(){var r=$('#rv'),c=r.querySelector('.rc');r.scrollBy({left:(c?c.offsetWidth+14:320)*b.dataset.d,behavior:'smooth'})})});
+
+ var vd=$('#vd'),vv=vd.querySelector('video'),bg=[];
+ if(!vd.showModal)return;
+ document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('[data-p]');if(!a||e.ctrlKey||e.metaKey||e.shiftKey)return;
+  e.preventDefault();
+  var n=+a.dataset.p,w=D[L].wk[n],yt=YT.indexOf(n)>-1;
+  vd.className='vd'+(yt?' yt':'');
+  vd.querySelector('.wk').textContent=yt?'YouTube':'Reels';
+  vd.querySelector('h3').textContent=w[0];
+  vd.querySelector('.vi p').textContent=w[1];
+  vd.querySelector('.vi .cs').innerHTML=PG[n].map(function(t){return'<span>'+t+'</span>'}).join('');
+  vv.poster=CDN+'img/project-'+n+'.jpg';vv.src=vu(n);
+  // Silence the muted hero loops while the modal plays with sound; resume them on close.
+  bg=[].filter.call(document.querySelectorAll('.vs video'),function(v){return!v.paused});bg.forEach(function(v){v.pause()});
+  vd.showModal();
+  var p=vv.play();if(p&&p.catch)p.catch(function(){});
+ });
+ vd.addEventListener('close',function(){vv.pause();bg.forEach(function(v){var p=v.play();if(p&&p.catch)p.catch(function(){})});bg=[]});
+ vd.addEventListener('click',function(e){if(e.target===vd)vd.close()});
+ vd.querySelector('.vx').addEventListener('click',function(){vd.close()});
+})();
+
+/* ---- v2 enhancements ---- */
+(function(){
+ var RM=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+ var FINE=window.matchMedia&&matchMedia('(hover: hover) and (pointer: fine)').matches;
+ var hdr=document.querySelector('header'),mm=document.getElementById('mm'),fl=document.querySelector('.fl');
+
+ // Header hides on scroll down, returns on scroll up; floating CTA shows between hero and contact.
+ var ly=scrollY,tk=false,nearEnd=false;
+ function onScroll(){
+  tk=false;var y=scrollY,dy=y-ly;
+  if(Math.abs(dy)>6){
+   var hide=dy>0&&y>innerHeight*.6&&mm.hidden&&!hdr.contains(document.activeElement);
+   hdr.classList.toggle('hd',hide);ly=y;
+  }
+  if(y<80)hdr.classList.remove('hd');
+  fl.classList.toggle('on',y>innerHeight*.75&&!nearEnd);
+ }
+ addEventListener('scroll',function(){if(!tk){tk=true;requestAnimationFrame(onScroll)}},{passive:true});
+ document.querySelector('.mb').addEventListener('click',function(){hdr.classList.remove('hd')});
+ if('IntersectionObserver' in window){
+  var seen={};
+  var eo=new IntersectionObserver(function(es){es.forEach(function(e){seen[e.target.id||'f']=e.isIntersecting});nearEnd=seen.contact||seen.f;onScroll()});
+  ['contact'].forEach(function(id){var el=document.getElementById(id);if(el)eo.observe(el)});
+  eo.observe(document.querySelector('footer'));
+ }
+ onScroll();
+
+ if(RM)return;
+
+ // Pointer micro-interactions: magnetic primary buttons and 3D tilt on work tiles.
+ if(FINE){
+  var mag=null,tl=null;
+  document.addEventListener('pointermove',function(e){
+   var b=e.target.closest&&e.target.closest('.btn.p,.fl');
+   if(mag&&mag!==b){mag.style.transform='';mag=null}
+   if(b){var r=b.getBoundingClientRect();b.style.transform='translate('+((e.clientX-r.left-r.width/2)*.18).toFixed(1)+'px,'+((e.clientY-r.top-r.height/2)*.28).toFixed(1)+'px)';mag=b}
+   var c=e.target.closest&&e.target.closest('.wc,.vt');
+   if(tl&&tl!==c){tl.classList.remove('tilt');tl.style.removeProperty('--rx');tl.style.removeProperty('--ry');tl=null}
+   if(c){var q=c.getBoundingClientRect(),px=(e.clientX-q.left)/q.width-.5,py=(e.clientY-q.top)/q.height-.5;c.classList.add('tilt');c.style.setProperty('--ry',(px*9).toFixed(2)+'deg');c.style.setProperty('--rx',(-py*9).toFixed(2)+'deg');tl=c}
+  },{passive:true});
+  document.addEventListener('pointerleave',function(){if(mag){mag.style.transform='';mag=null}if(tl){tl.classList.remove('tilt');tl.style.removeProperty('--rx');tl.style.removeProperty('--ry');tl=null}});
+ }
+
+ // GSAP ScrollTrigger choreography. Optional: if the CDN fails, the page keeps its static layout.
+ addEventListener('DOMContentLoaded',function(){
+  var G=window.gsap,ST=window.ScrollTrigger;if(!G||!ST)return;
+  G.registerPlugin(ST);
+  var mmq=G.matchMedia();
+
+  // Process steps: fill the line and light up each step as it is reached.
+  var ps=document.getElementById('ps');
+  if(ps){
+   ps.classList.add('js');
+   ST.create({trigger:ps,start:'top 78%',end:'bottom 60%',scrub:.6,onUpdate:function(s){
+    var p=s.progress,vert=getComputedStyle(ps).paddingLeft!=='0px',ext=vert?ps.offsetHeight:ps.offsetWidth;
+    ps.style.setProperty('--p',p.toFixed(3));
+    [].forEach.call(ps.children,function(li){li.classList.toggle('on',(vert?li.offsetTop:li.offsetLeft)<=p*ext+8)});
+   },onRefresh:function(s){s.vars.onUpdate(s)}});
+  }
+
+  // Marquee speeds up and skews with scroll velocity.
+  var mt=document.querySelector('.mt');
+  if(mt){
+   mt.style.animation='none';
+   var loop=G.to(mt,{xPercent:-50,duration:36,ease:'none',repeat:-1});
+   var sk=G.quickTo(mt,'skewX',{duration:.4,ease:'power3'}),hov=false,mq=document.querySelector('.mq');
+   if(FINE){mq.addEventListener('pointerenter',function(){hov=true;G.to(loop,{timeScale:.25,duration:.6,overwrite:true})});mq.addEventListener('pointerleave',function(){hov=false;G.to(loop,{timeScale:1,duration:.9,overwrite:true})})}
+   ST.create({trigger:'.mq',start:'top bottom',end:'bottom top',onUpdate:function(s){
+    var v=Math.min(Math.abs(s.getVelocity())/250,8);
+    G.to(loop,{timeScale:1+v,duration:.25,overwrite:true,onComplete:function(){G.to(loop,{timeScale:hov?.25:1,duration:1.2})}});
+    sk(G.utils.clamp(-10,10,s.getVelocity()/-180));
+   },onLeave:function(){sk(0)},onLeaveBack:function(){sk(0)}});
+  }
+
+  mmq.add('(min-width: 901px)',function(){
+   // Hero: video tiles drift at different speeds, headline eases away.
+   var off=[-30,-90,-15,-70];
+   G.utils.toArray('.vs .vt').forEach(function(el,i){
+    G.fromTo(el,{'--py':'0px'},{'--py':off[i%4]+'px',ease:'none',scrollTrigger:{trigger:'.vs',start:'top 85%',end:'bottom top',scrub:true}});
+   });
+   G.to('main > .w:first-child',{yPercent:-10,opacity:.35,ease:'none',scrollTrigger:{trigger:'main > .w:first-child',start:'top top',end:'bottom top',scrub:true}});
+   // Contact card grows into place.
+   G.fromTo('.cbx',{scale:.94},{scale:1,ease:'none',scrollTrigger:{trigger:'.ct',start:'top bottom',end:'top 45%',scrub:true}});
+  });
+
+  // Language switch re-renders sections and changes heights.
+  document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){setTimeout(function(){ST.refresh()},60)})});
+ });
+})();
+</script>
+<script>
+/* Живой фон всего сайта: один фрагментный шейдер в фиксированном слое .bg, без библиотек.
+   Фолбэк — CSS-пятна (.bg i, .hbg i) + сетка + зерно. Телефон получает ту же картинку в меньшем разрешении. */
+(function(){
+var root=document.documentElement,bg=document.querySelector('.bg');if(!bg)return;
+var rm=matchMedia('(prefers-reduced-motion: reduce)');if(rm.matches)return;
+var nc=navigator.connection||{};if(nc.saveData)return;
+var mob=matchMedia('(max-width:700px)').matches||matchMedia('(pointer:coarse)').matches;
+var cv=document.createElement('canvas'),gl;
+try{gl=cv.getContext('webgl',{alpha:true,antialias:false,depth:false,stencil:false,powerPreference:'low-power',failIfMajorPerformanceCaveat:true})}catch(e){}
+if(!gl)return;
+var css=getComputedStyle(root);
+function rgb(v,d){v=(css.getPropertyValue(v)||d).trim();var m=v.match(/^#([0-9a-f]{6})$/i);if(!m)v=d,m=d.match(/^#([0-9a-f]{6})$/i);var n=parseInt(m[1],16);return[(n>>16&255)/255,(n>>8&255)/255,(n&255)/255]}
+var vs='attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}';
+var fs='precision mediump float;uniform vec2 r;uniform float t,y,k;uniform vec2 u,v;uniform vec3 a,b,c;'+
+'float h(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}'+
+'float n(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(h(i),h(i+vec2(1,0)),f.x),mix(h(i+vec2(0,1)),h(i+vec2(1,1)),f.x),f.y);}'+
+'float fb(vec2 p){float v=0.,w=.5;for(int j=0;j<4;j++){v+=w*n(p);p=p*2.03+7.1;w*=.5;}return v;}'+
+'void main(){vec2 q=(gl_FragCoord.xy-.5*r)/min(r.x,r.y);float s=t*.045;vec2 o=vec2(0.,-y*.55);'+
+'vec2 w=vec2(fb(q*1.3+o+vec2(s,-s*.7)),fb(q*1.3+o+vec2(-s*.6,s)+3.7));float f=fb(q*1.6+o+w*1.8+vec2(0.,s*.5));'+
+'float g1=smoothstep(.75,.0,length(q-u-vec2(.12*sin(s*1.9+y*.9),.08*cos(s*1.4+y*.7))));'+
+'float g2=smoothstep(.7,.0,length(q-v-vec2(.1*cos(s*1.6+y*.8),.1*sin(s*1.2+y))));'+
+'float wave=smoothstep(.35,.95,f);vec3 col=a*g1*.42+c*g2*.38+mix(b,c,w.x)*wave*.34;'+
+'col*=.85+.15*sin(q.y*6.+f*4.-s*3.-y*2.);float al=clamp(max(max(col.r,col.g),col.b),0.,.5)*k;'+
+'gl_FragColor=vec4(col*.9,al);}';
+function sh(t,src){var o=gl.createShader(t);gl.shaderSource(o,src);gl.compileShader(o);return gl.getShaderParameter(o,gl.COMPILE_STATUS)?o:null}
+var v=sh(gl.VERTEX_SHADER,vs),f=sh(gl.FRAGMENT_SHADER,fs);if(!v||!f)return;
+var pr=gl.createProgram();gl.attachShader(pr,v);gl.attachShader(pr,f);gl.linkProgram(pr);if(!gl.getProgramParameter(pr,gl.LINK_STATUS))return;
+gl.useProgram(pr);gl.bindBuffer(gl.ARRAY_BUFFER,gl.createBuffer());gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,3,-1,-1,3]),gl.STATIC_DRAW);
+var lp=gl.getAttribLocation(pr,'p');gl.enableVertexAttribArray(lp);gl.vertexAttribPointer(lp,2,gl.FLOAT,false,0,0);
+var U={};['r','t','y','k','u','v','a','b','c'].forEach(function(x){U[x]=gl.getUniformLocation(pr,x)});
+gl.uniform3fv(U.a,rgb('--ac','#b3a5ff'));gl.uniform3fv(U.b,rgb('--c1','#a193ff'));gl.uniform3fv(U.c,rgb('--c2','#5ec8ff'));
+/* Мягкий фон без деталей: рендерим в уменьшенном буфере, браузер растягивает. DPR ≤ 1.5. */
+var dpr=Math.min(window.devicePixelRatio||1,1.5),scale=dpr*(mob?.5:.6),step=1000/(mob?30:40),raf=0,last=0,t0=performance.now(),frames=0,slow=0,lowered=0;
+function size(){var w=Math.max(1,Math.round(innerWidth*scale)),h=Math.max(1,Math.round(innerHeight*scale));if(cv.width!==w||cv.height!==h){cv.width=w;cv.height=h;gl.viewport(0,0,w,h)}gl.uniform2f(U.r,cv.width,cv.height)}
+function drop(){cancelAnimationFrame(raf);raf=-1;root.classList.remove('glbg');setTimeout(function(){cv.remove()},1300)}
+/* Пятна следуют за главным элементом раздела: заголовок первого экрана, «Ріст», карточка контактов.
+   Цели считаются по прокрутке (только getBoundingClientRect), в кадре — плавное приближение. Формула шейдера та же. */
+var D0=[-.45,.25,.5,-.05],tg=D0.slice(),cu=D0.slice(),lt=0,tq=false;
+function qx(r,fx,fy){var W=innerWidth,H=innerHeight,m=Math.min(W,H);return[Math.max(-1.1,Math.min(1.1,(r.left+r.width*fx-W/2)/m)),Math.max(-1.3,Math.min(1.3,(H/2-r.top-r.height*fy)/m))]}
+function aim(){tq=false;var H=innerHeight,c=H/2,t=D0,h=document.querySelector('h1'),hr=h&&h.getBoundingClientRect(),
+ hot=document.querySelector('#pn1:not([hidden]) .pcd.hot'),pr=document.getElementById('pricing').getBoundingClientRect(),
+ bx=document.querySelector('.cbx'),cr=bx&&bx.getBoundingClientRect();
+ if(hr&&hr.bottom>0&&hr.top<c){var a=qx(hr,mob?.5:.32,.5);t=[a[0],a[1],D0[2],D0[3]]}
+ else if(hot&&pr.top<c&&pr.bottom>c&&(hr=hot.getBoundingClientRect()).top<H*.8&&hr.bottom>H*.2){var a=qx(hr,.5,.62);t=[a[0]-.18,a[1],a[0]+.2,a[1]-.32]}
+ else if(cr&&cr.top<H*.75&&cr.bottom>H*.2){var a=qx(cr,mob?.5:.25,mob?.3:.45),b=qx(cr,mob?.5:.78,mob?.8:.55);t=[a[0],a[1],b[0],b[1]]}
+ tg=t}
+addEventListener('scroll',function(){if(!tq){tq=true;requestAnimationFrame(aim)}},{passive:true});
+document.addEventListener('click',function(e){if(e.target.closest&&e.target.closest('.tabs,.lang'))setTimeout(aim,80)});
+function draw(now){var vh=innerHeight||1,sy=(window.scrollY||0)/vh,dt=lt?Math.min(.1,(now-lt)/1000):0,kk=1-Math.exp(-dt*2.2);lt=now;
+for(var i=0;i<4;i++)cu[i]+=(tg[i]-cu[i])*kk;gl.uniform2f(U.u,cu[0],cu[1]);gl.uniform2f(U.v,cu[2],cu[3]);gl.uniform1f(U.t,(now-t0)/1000);gl.uniform1f(U.y,sy);gl.uniform1f(U.k,1-.22*Math.min(1,sy));gl.drawArrays(gl.TRIANGLES,0,3)}
+function loop(now){if(raf<0)return;raf=0;if(document.hidden)return;raf=requestAnimationFrame(loop);var d=now-last;if(d<step)return;
+/* Медленное устройство: сначала снижаем разрешение (картинка та же), выключаем только если не помогло. */
+if(last&&frames<60){frames++;if(d>step*2.2)slow++;if(frames===60&&slow>30){if(lowered<2){lowered++;scale*=.6;size();frames=slow=0}else return drop()}}
+last=now;draw(now)}
+function go(){if(raf===0&&!document.hidden){last=0;raf=requestAnimationFrame(loop)}}
+size();bg.insertBefore(cv,bg.firstChild);draw(t0);requestAnimationFrame(function(){root.classList.add('glbg')});
+document.addEventListener('visibilitychange',go);
+addEventListener('resize',function(){size();aim();if(!raf)draw(performance.now())},{passive:true});aim();cu=tg.slice();
+cv.addEventListener('webglcontextlost',function(e){e.preventDefault();drop()});
+(rm.addEventListener?rm.addEventListener('change',function(m){if(m.matches)drop()}):0);
+go();
+})();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.1/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.1/dist/ScrollTrigger.min.js" defer></script>
+
+
+</body></html>
