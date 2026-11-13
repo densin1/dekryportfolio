@@ -203,7 +203,8 @@ dialog img{display:block;max-width:94vw;max-height:90vh;border-radius:14px;curso
 .mb{display:none;width:44px;height:44px;flex:none;border:1.5px solid var(--ln);border-radius:12px;background:none;color:var(--tx);cursor:pointer;flex-direction:column;justify-content:center;align-items:center;gap:6px;padding:0}
 .mb i{display:block;width:18px;height:2px;background:currentColor;border-radius:2px;transition:transform .25s}
 .mb[aria-expanded=true] i:first-child{transform:translateY(4px) rotate(45deg)}.mb[aria-expanded=true] i:last-child{transform:translateY(-4px) rotate(-45deg)}
-.mm{position:absolute;left:0;right:0;top:100%;display:flex;flex-direction:column;padding:6px 22px 26px;background:rgba(8,7,15,.97);border-bottom:1.5px solid var(--ln)}
+.mm{position:absolute;left:0;right:0;top:100%;display:flex;flex-direction:column;padding:6px 22px 26px;background:rgba(8,7,15,.97);border-bottom:1.5px solid var(--ln);max-height:calc(100vh - 69px);max-height:calc(100dvh - 69px - env(safe-area-inset-bottom,0px));overflow-y:auto;overscroll-behavior-y:contain}
+.mm>a{flex-shrink:0}
 .mm[hidden]{display:none}
 .mm a:not(.btn){font:800 30px/1 var(--f);letter-spacing:-.03em;text-decoration:none;padding:16px 0;border-bottom:1.5px solid var(--ln)}
 .mm .btn{margin-top:22px;text-align:center}
@@ -656,18 +657,30 @@ TB.forEach(function(b,i){b.tabIndex=i?-1:0;b.addEventListener('keydown',function
  var hdr=document.querySelector('header'),mm=document.getElementById('mm'),fl=document.querySelector('.fl');
 
  // Header hides on scroll down, returns on scroll up; floating CTA shows between hero and contact.
- var ly=scrollY,tk=false,nearEnd=false;
+ function scrollPosition(){return Math.max(0,Math.min(scrollY,document.documentElement.scrollHeight-innerHeight))}
+ var ly=scrollPosition(),travel=0,viewportWidth=innerWidth,tk=false,nearEnd=false;
+ function revealHeader(){ly=scrollPosition();travel=0;hdr.classList.remove('hd')}
  function onScroll(){
-  tk=false;var y=scrollY,dy=y-ly;
-  if(Math.abs(dy)>6){
-   var hide=dy>0&&y>innerHeight*.6&&mm.hidden&&!hdr.contains(document.activeElement);
-   hdr.classList.toggle('hd',hide);ly=y;
+  tk=false;var y=scrollPosition(),dy=y-ly;ly=y;
+  if(y<80||!mm.hidden||hdr.contains(document.activeElement)){
+   hdr.classList.remove('hd');travel=0;
+  }else{
+   // Require deliberate travel in one direction, not a few pixels of touch jitter.
+   if(dy*travel<0)travel=0;
+   travel+=dy;
+   if(travel>=48&&y>innerHeight*.6){hdr.classList.add('hd');travel=0}
+   else if(travel<=-16){hdr.classList.remove('hd');travel=0}
   }
-  if(y<80)hdr.classList.remove('hd');
   fl.classList.toggle('on',y>innerHeight*.75&&!nearEnd);
  }
  addEventListener('scroll',function(){if(!tk){tk=true;requestAnimationFrame(onScroll)}},{passive:true});
- document.querySelector('.mb').addEventListener('click',function(){hdr.classList.remove('hd')});
+ document.querySelector('.mb').addEventListener('click',revealHeader);
+ hdr.addEventListener('focusin',revealHeader);
+ addEventListener('resize',function(){
+  // Mobile browser bars change height while scrolling; do not reveal on every resize.
+  if(innerWidth!==viewportWidth){viewportWidth=innerWidth;revealHeader()}
+  else{ly=scrollPosition();travel=0}
+ },{passive:true});
  if('IntersectionObserver' in window){
   var seen={};
   var eo=new IntersectionObserver(function(es){es.forEach(function(e){seen[e.target.id||'f']=e.isIntersecting});nearEnd=seen.contact||seen.f;onScroll()});
